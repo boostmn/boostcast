@@ -192,8 +192,8 @@ jobs:
         uses: docker/metadata-action@v4
         with:
           images: |
-            azuracast/azuracast
-            ghcr.io/azuracast/azuracast
+            boostmn/boostcast
+            ghcr.io/boostmn/boostcast
           tags: |
             type=raw,value=latest,enable=${{ endsWith(github.ref, github.event.repository.default_branch) }}
             type=ref,event=branch

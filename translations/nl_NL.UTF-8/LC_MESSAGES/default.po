@@ -4792,7 +4792,7 @@ msgstr "Radio poorten: %s"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:215
 msgid "Customize ports used for AzuraCast?"
-msgstr "Poorten aanpassen die worden gebruikt door AzureCast?"
+msgstr "Poorten aanpassen die worden gebruikt door BoostCase?"
 
 #: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:264
 msgid "Writing configuration files..."

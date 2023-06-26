@@ -139,7 +139,7 @@ version-number() {
   echo "$@" | awk -F. '{ printf("%03d%03d%03d\n", $1,$2,$3); }'
 }
 
-# Get the current release channel for AzuraCast
+# Get the current release channel for BoostCast
 get-release-channel() {
   local AZURACAST_VERSION="latest"
   if [[ -f .env ]]; then
@@ -215,7 +215,7 @@ envfile-set() {
 }
 
 #
-# Configure the ports used by AzuraCast.
+# Configure the ports used by BoostCast.
 #
 setup-ports() {
   envfile-set "AZURACAST_HTTP_PORT" "80" "Port to use for HTTP connections"
@@ -228,7 +228,7 @@ setup-ports() {
 #
 setup-release() {
   if [[ ! -f .env ]]; then
-    curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/main/sample.env -o .env
+    curl -fsSL https://raw.githubusercontent.com/boostmn/boostcast/main/sample.env -o .env
   fi
 
   local OLD_RELEASE_CHANNEL
@@ -261,7 +261,7 @@ check-install-requirements() {
 
   set -e
 
-  echo "Checking installation requirements for AzuraCast..."
+  echo "Checking installation requirements for BoostCast..."
 
   CURRENT_OS=$(uname -s)
   if [[ $CURRENT_OS == "Linux" ]]; then
@@ -270,7 +270,7 @@ check-install-requirements() {
     echo -en "\e[41m[FAIL]\e[0m Operating System: ${CURRENT_OS}\n"
 
     echo "       You are running an unsupported operating system."
-    echo "       Automated AzuraCast installation is not currently supported on this"
+    echo "       Automated BoostCast installation is not currently supported on this"
     echo "       operating system."
     exit 1
   fi
@@ -284,7 +284,7 @@ check-install-requirements() {
     echo -en "\e[41m[FAIL]\e[0m Architecture: ${CURRENT_ARCH}\n"
 
     echo "       You are running an unsupported processor architecture."
-    echo "       Automated AzuraCast installation is not currently supported on this "
+    echo "       Automated BoostCast installation is not currently supported on this "
     echo "       operating system."
     exit 1
   fi
@@ -324,8 +324,8 @@ check-install-requirements() {
     echo -en "\e[32m[PASS]\e[0m Installation Directory\n"
   else
     echo -en "\e[93m[WARN]\e[0m Installation Directory\n"
-    echo "       AzuraCast is not installed in /var/azuracast, as is recommended"
-    echo "       for most installations. This will not prevent AzuraCast from"
+    echo "       BoostCast is not installed in /var/azuracast, as is recommended"
+    echo "       for most installations. This will not prevent BoostCast from"
     echo "       working, but you will need to update any instructions in our"
     echo "       documentation to reflect your current directory:"
     echo "       $SCRIPT_DIR"
@@ -389,13 +389,13 @@ run-installer() {
   AZURACAST_RELEASE_BRANCH=$(get-release-branch-name)
 
   if [[ ! -f .env ]]; then
-    curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/$AZURACAST_RELEASE_BRANCH/sample.env -o .env
+    curl -fsSL https://raw.githubusercontent.com/boostmn/boostcast/$AZURACAST_RELEASE_BRANCH/sample.env -o .env
   fi
   if [[ ! -f azuracast.env ]]; then
-    curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/$AZURACAST_RELEASE_BRANCH/azuracast.sample.env -o azuracast.env
+    curl -fsSL https://raw.githubusercontent.com/boostmn/boostcast/$AZURACAST_RELEASE_BRANCH/azuracast.sample.env -o azuracast.env
   fi
   if [[ ! -f docker-compose.yml ]]; then
-    curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/$AZURACAST_RELEASE_BRANCH/docker-compose.sample.yml -o docker-compose.yml
+    curl -fsSL https://raw.githubusercontent.com/boostmn/boostcast/$AZURACAST_RELEASE_BRANCH/docker-compose.sample.yml -o docker-compose.yml
   fi
 
   touch docker-compose.new.yml
@@ -407,7 +407,7 @@ run-installer() {
     fi
   fi
 
-  curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/$AZURACAST_RELEASE_BRANCH/docker-compose.installer.yml -o docker-compose.installer.yml
+  curl -fsSL https://raw.githubusercontent.com/boostmn/boostcast/$AZURACAST_RELEASE_BRANCH/docker-compose.installer.yml -o docker-compose.installer.yml
 
   dc -p azuracast_installer -f docker-compose.installer.yml pull
   dc -p azuracast_installer -f docker-compose.installer.yml run --rm installer install "$@"
@@ -416,7 +416,7 @@ run-installer() {
 }
 
 #
-# Run the initial installer of Docker and AzuraCast.
+# Run the initial installer of Docker and BoostCast.
 # Usage: ./docker.sh install
 #
 install() {
@@ -558,7 +558,7 @@ update() {
     local AZURACAST_RELEASE_BRANCH
     AZURACAST_RELEASE_BRANCH=$(get-release-branch-name)
 
-    curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/$AZURACAST_RELEASE_BRANCH/docker.sh -o docker.new.sh
+    curl -fsSL https://raw.githubusercontent.com/boostmn/boostcast/$AZURACAST_RELEASE_BRANCH/docker.sh -o docker.new.sh
 
     local UTILITY_FILES_MATCH
     UTILITY_FILES_MATCH="$(
@@ -605,7 +605,7 @@ update() {
     local COMPOSE_FILES_MATCH
 
     if [[ ! -s docker-compose.new.yml ]]; then
-      curl -fsSL https://raw.githubusercontent.com/AzuraCast/AzuraCast/$AZURACAST_RELEASE_BRANCH/docker-compose.sample.yml -o docker-compose.new.yml
+      curl -fsSL https://raw.githubusercontent.com/boostmn/boostcast/$AZURACAST_RELEASE_BRANCH/docker-compose.sample.yml -o docker-compose.new.yml
     fi
 
     COMPOSE_FILES_MATCH="$(
@@ -647,7 +647,7 @@ update-self() {
   AZURACAST_RELEASE_BRANCH=$(get-release-branch-name)
 
   curl -H 'Cache-Control: no-cache, no-store' -fsSL \
-    https://raw.githubusercontent.com/AzuraCast/AzuraCast/$AZURACAST_RELEASE_BRANCH/docker.sh?$(date +%s) \
+    https://raw.githubusercontent.com/boostmn/boostcast/$AZURACAST_RELEASE_BRANCH/docker.sh?$(date +%s) \
     -o docker.sh
   chmod a+x docker.sh
 
@@ -712,18 +712,18 @@ backup() {
 }
 
 #
-# Restore an AzuraCast backup into Docker.
+# Restore an BoostCast backup into Docker.
 # Usage:
 # ./docker.sh restore [/custom/backup/dir/custombackupname.zip]
 #
 restore() {
   if [[ ! -f .env ]] || [[ ! -f azuracast.env ]]; then
-    echo "AzuraCast hasn't been installed yet on this server."
+    echo "BoostCast hasn't been installed yet on this server."
     echo "You should run './docker.sh install' first before restoring."
     exit 1
   fi
 
-  if ask "Restoring will remove any existing AzuraCast installation data, replacing it with your backup. Continue?" Y; then
+  if ask "Restoring will remove any existing BoostCast installation data, replacing it with your backup. Continue?" Y; then
     if [[ $1 != "" ]]; then
       local BACKUP_PATH BACKUP_DIR BACKUP_FILENAME BACKUP_EXT
       BACKUP_PATH=$(readlink -f ${1:-"./backup.tar.gz"})
@@ -739,7 +739,7 @@ restore() {
 
       dc down
 
-      # Remove most AzuraCast volumes but preserve some essential ones.
+      # Remove most BoostCast volumes but preserve some essential ones.
       d volume rm -f $(d volume ls | grep 'azuracast' | grep -v 'station\|install' | awk 'NR>1 {print $2}')
       d volume create azuracast_backups
 
@@ -766,7 +766,7 @@ restore() {
     else
       dc down
 
-      # Remove most AzuraCast volumes but preserve some essential ones.
+      # Remove most BoostCast volumes but preserve some essential ones.
       d volume rm -f $(d volume ls | grep 'azuracast' | grep -v 'station\|backups\|install' | awk 'NR>1 {print $2}')
 
       dc run --rm web -- azuracast_restore "$@"
@@ -826,7 +826,7 @@ uninstall() {
     dc rm -f
     d volume prune -f
 
-    echo "All AzuraCast Docker containers and volumes were removed."
+    echo "All BoostCast Docker containers and volumes were removed."
     echo "To remove *all* Docker containers and volumes, run:"
     echo "  docker stop \$(docker ps -a -q)"
     echo "  docker rm \$(docker ps -a -q)"
@@ -866,12 +866,12 @@ change-ports() {
 # Helper scripts for basic Docker Compose functions
 #
 up() {
-  echo "Starting up AzuraCast services..."
+  echo "Starting up BoostCast services..."
   dc up -d
 }
 
 down() {
-  echo "Shutting down AzuraCast services..."
+  echo "Shutting down BoostCast services..."
   dc down --timeout 60
 }
 

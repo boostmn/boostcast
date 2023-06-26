@@ -50,7 +50,7 @@
                                     v-else
                                     class="card-title"
                                 >
-                                    {{ $gettext('AzuraCast User') }}
+                                    {{ $gettext('BoostCast User') }}
                                 </h2>
                                 <h3 class="card-subtitle">
                                     {{ user.email }}
@@ -155,9 +155,9 @@
                         </h2>
                     </b-card-header>
 
-                    <info-card>
+                    <!-- <info-card>
                         {{
-                            $gettext('Use API keys to authenticate with the AzuraCast API using the same permissions as your user account.')
+                            $gettext('Use API keys to authenticate with the BoostCastAPI using the same permissions as your user account.')
                         }}
                         <a
                             href="/api"
@@ -165,7 +165,7 @@
                         >
                             {{ $gettext('API Documentation') }}
                         </a>
-                    </info-card>
+                    </info-card> -->
 
                     <b-card-body body-class="card-padding-sm">
                         <b-button

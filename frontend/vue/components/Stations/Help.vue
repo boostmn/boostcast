@@ -59,7 +59,7 @@
                     <a
                         class="btn btn-outline-primary"
                         role="button"
-                        href="https://github.com/AzuraCast/AzuraCast/issues/new/choose"
+                        href="https://github.com/boostmn/boostcast/issues/new/choose"
                         target="_blank"
                     >
                         <icon icon="contact_support" />

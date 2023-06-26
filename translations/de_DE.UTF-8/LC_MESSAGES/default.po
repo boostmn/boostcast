@@ -422,7 +422,7 @@ msgstr "AzuraCast wird mit einer eingebauten kostenlosen IP-Geolokalisierungsdat
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:42
 msgid "AzuraCast Update Checks"
-msgstr "AzureCast Update-Überprüfungen"
+msgstr "BoostCase Update-Überprüfungen"
 
 #: ./vue/components/Account.vue:97
 msgid "AzuraCast User"

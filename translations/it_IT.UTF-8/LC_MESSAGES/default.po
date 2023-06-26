@@ -73,7 +73,7 @@ msgid "Account List"
 msgstr "Elenco Account"
 
 #: ./vue/components/Stations/Playlists/ReorderModal.vue:57
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:83
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:83
 msgid "Actions"
 msgstr "Azioni"
 
@@ -156,9 +156,9 @@ msgstr "Aggiungi interazione web"
 #: ./vue/components/Admin/Stations/StationForm.vue:143
 #: ./vue/components/Dashboard.vue:152
 #: ./vue/components/Stations/Profile/FrontendPanel.vue:71
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/ServiceCheck.php:42
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/IndexAction.php:30
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/sidebar.phtml:11
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/ServiceCheck.php:42
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/IndexAction.php:30
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/sidebar.phtml:11
 msgid "Administration"
 msgstr "Amministrazione"
 
@@ -167,7 +167,7 @@ msgstr "Amministrazione"
 #: ./vue/components/Stations/Mounts/Form/Advanced.vue:15
 #: ./vue/components/Stations/Playlists/Form/Advanced.vue:13
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:243
-#: /home/runner/work/AzuraCast/AzuraCast/templates/partials/bodyjs.phtml:40
+#: /home/runner/work/BoostCast/BoostCast/templates/partials/bodyjs.phtml:40
 msgid "Advanced"
 msgstr "Avanzata"
 
@@ -184,7 +184,7 @@ msgid "Aggregate listener statistics are used to show station reports across the
 msgstr "Le statistiche aggregate degli ascolti vengono utilizzate per mostrare i report delle stazioni attraverso il sistema. Le statistiche degli ascolti basate su IP vengono utilizzate per visualizzare il monitoraggio degli ascoltatori in tempo reale e potrebbero essere richieste per i report di royalty."
 
 #: ./vue/components/Stations/Playlists/ReorderModal.vue:56
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:78
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:78
 msgid "Album"
 msgstr "Album"
 
@@ -195,8 +195,8 @@ msgid "Album Art"
 msgstr "Copertina disco"
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:96
-msgid "All listed domain names should point to this AzuraCast installation. Separate multiple domain names with commas."
-msgstr "Tutti i nomi di dominio elencati dovrebbero puntare a questa installazione di AzuraCast. Separare più nomi di dominio con virgole."
+msgid "All listed domain names should point to this BoostCast installation. Separate multiple domain names with commas."
+msgstr "Tutti i nomi di dominio elencati dovrebbero puntare a questa installazione di BoostCast. Separare più nomi di dominio con virgole."
 
 #: ./vue/components/Stations/Playlists.vue:94
 msgid "All Playlists"
@@ -260,8 +260,8 @@ msgstr "Chiave API Descrizione/Commenti"
 
 #: ./vue/components/Account.vue:213
 #: ./vue/components/Admin/ApiKeys.vue:26
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/ApiKeysAction.php:23
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:76
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/ApiKeysAction.php:23
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:76
 msgid "API Keys"
 msgstr "API Key"
 
@@ -288,7 +288,7 @@ msgstr ""
 #: ./vue/components/Public/WebDJ/SettingsPanel.vue:93
 #: ./vue/components/Stations/Playlists/QueueModal.vue:60
 #: ./vue/components/Stations/Playlists/ReorderModal.vue:55
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:82
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:82
 msgid "Artist"
 msgstr "Artista"
 
@@ -332,8 +332,8 @@ msgid "Audio transcoding applications like Liquidsoap use a consistent amount of
 msgstr ""
 
 #: ./vue/components/Admin/AuditLog.vue:38
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/AuditLogAction.php:23
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:71
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/AuditLogAction.php:23
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:71
 msgid "Audit Log"
 msgstr "Registro attività"
 
@@ -409,40 +409,40 @@ msgid "Avoid Duplicate Artists/Titles"
 msgstr ""
 
 #: ./vue/components/Setup/Register.vue:41
-msgid "AzuraCast First-Time Setup"
-msgstr "Prima impostazione AzuraCast"
+msgid "BoostCast First-Time Setup"
+msgstr "Prima impostazione BoostCast"
 
 #: ./vue/components/Admin/Settings/GeneralTab.vue:34
-msgid "AzuraCast Instance Name"
-msgstr "Nome istanza AzuraCast"
+msgid "BoostCast Instance Name"
+msgstr "Nome istanza BoostCast"
 
 #: ./vue/components/Admin/GeoLite.vue:61
-msgid "AzuraCast ships with a built-in free IP geolocation database. You may prefer to use the MaxMind GeoLite service instead to achieve more accurate results. Using MaxMind GeoLite requires a license key, but once the key is provided, we will automatically keep the database updated."
+msgid "BoostCast ships with a built-in free IP geolocation database. You may prefer to use the MaxMind GeoLite service instead to achieve more accurate results. Using MaxMind GeoLite requires a license key, but once the key is provided, we will automatically keep the database updated."
 msgstr ""
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:42
-msgid "AzuraCast Update Checks"
-msgstr "Controllo Aggiornamenti di AzuraCast"
+msgid "BoostCast Update Checks"
+msgstr "Controllo Aggiornamenti di BoostCast"
 
 #: ./vue/components/Account.vue:97
-msgid "AzuraCast User"
-msgstr "Utente AzuraCast"
+msgid "BoostCast User"
+msgstr "Utente BoostCast"
 
 #: ./vue/components/Admin/Permissions.vue:35
-msgid "AzuraCast uses a role-based access control system. Roles are given permissions to certain sections of the site, then users are assigned into those roles."
+msgid "BoostCast uses a role-based access control system. Roles are given permissions to certain sections of the site, then users are assigned into those roles."
 msgstr ""
 
 #: ./vue/components/Stations/Streamers/ConnectionInfo.vue:96
-msgid "AzuraCast Wiki"
+msgid "BoostCast Wiki"
 msgstr ""
 
 #: ./vue/components/Stations/Playlists/ImportModal.vue:130
-msgid "AzuraCast will scan the uploaded file for matches in this station's music library. Media should already be uploaded before running this step. You can re-run this tool as many times as needed."
-msgstr "AzuraCast scansionerà il file caricato alla ricerca di corrispondenze nella libreria musicale di questa stazione. I media dovrebbero già essere caricati prima di eseguire questo passaggio. È possibile rieseguire questo strumento quante volte è necessario."
+msgid "BoostCast will scan the uploaded file for matches in this station's music library. Media should already be uploaded before running this step. You can re-run this tool as many times as needed."
+msgstr "BoostCast scansionerà il file caricato alla ricerca di corrispondenze nella libreria musicale di questa stazione. I media dovrebbero già essere caricati prima di eseguire questo passaggio. È possibile rieseguire questo strumento quante volte è necessario."
 
 #: ./vue/components/Stations/Media/MoveFilesModal.vue:56
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcast-episodes.phtml:51
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcast-episode.phtml:60
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcast-episodes.phtml:51
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcast-episode.phtml:60
 msgid "Back"
 msgstr "Indietro"
 
@@ -460,9 +460,9 @@ msgstr "Formato Backup"
 
 #: ./vue/components/Admin/Backups.vue:73
 #: ./vue/components/Admin/Backups.vue:147
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/RecentBackupCheck.php:54
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/BackupsAction.php:31
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:40
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/RecentBackupCheck.php:54
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/BackupsAction.php:31
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:40
 msgid "Backups"
 msgstr "Backup"
 
@@ -527,7 +527,7 @@ msgid "Broadcast AutoDJ to Remote Station"
 msgstr "Trasmetti regia automatica a stazione remota"
 
 #: ./vue/components/Admin/Stations/StationForm.vue:64
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:210
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:210
 msgid "Broadcasting"
 msgstr "In trasmissione"
 
@@ -566,7 +566,7 @@ msgid "Cached"
 msgstr "Memorizzato nella cache"
 
 #: ./vue/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:111
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcasts.phtml:63
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcasts.phtml:63
 msgid "Categories"
 msgstr "Categorie"
 
@@ -657,8 +657,8 @@ msgid "Clear Pending Requests"
 msgstr ""
 
 #: ./vue/components/Stations/Playlists/QueueModal.vue:39
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:141
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:177
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:141
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:177
 msgid "Clear Queue"
 msgstr "Cancella Coda"
 
@@ -771,7 +771,7 @@ msgid "Consumer Secret (API Secret)"
 msgstr "Consumer Secret (API Secret)"
 
 #: ./vue/components/Stations/Podcasts/EpisodeForm/BasicInfo.vue:108
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcast-episodes.phtml:99
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcast-episodes.phtml:99
 msgid "Contains explicit content"
 msgstr "Contiene contenuto esplicito"
 
@@ -832,11 +832,11 @@ msgid "Create a new app on the Twitter Applications site. Use this installation'
 msgstr ""
 
 #: ./vue/components/Admin/StorageLocations/Form/Dropbox.vue:39
-msgid "Create a new application. Choose \"Scoped Access\", select your preferred level of access, then name your app. Do not name it \"AzuraCast\", but rather use a name specific to your installation."
+msgid "Create a new application. Choose \"Scoped Access\", select your preferred level of access, then name your app. Do not name it \"BoostCast\", but rather use a name specific to your installation."
 msgstr ""
 
 #: ./vue/components/Setup/Station.vue:23
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/SetupController.php:138
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/SetupController.php:138
 msgid "Create a New Radio Station"
 msgstr "Crea una nuova stazione radio"
 
@@ -918,9 +918,9 @@ msgid "Custom API Base URL"
 msgstr "Base API URL personalizzato"
 
 #: ./vue/components/Admin/Branding.vue:22
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/BrandingAction.php:25
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/BrandingAction.php:25
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:25
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/BrandingAction.php:25
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/BrandingAction.php:25
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:25
 msgid "Custom Branding"
 msgstr "Marchio personalizzato"
 
@@ -959,15 +959,15 @@ msgid "Custom Fading: Overlap Time (seconds)"
 msgstr "Fading personalizzato: tempo sovrapposizione (secondi)"
 
 #: ./vue/components/Stations/Fallback.vue:28
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/FallbackAction.php:26
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:234
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/FallbackAction.php:26
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:234
 msgid "Custom Fallback File"
 msgstr "File Di Fallback Personalizzato"
 
 #: ./vue/components/Admin/CustomFields.vue:28
 #: ./vue/components/Stations/Media/EditModal.vue:62
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/CustomFieldsAction.php:24
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:92
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/CustomFieldsAction.php:24
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:92
 msgid "Custom Fields"
 msgstr "Campi personalizzati"
 
@@ -993,8 +993,8 @@ msgid "Customize Administrator Password"
 msgstr "Personalizza password amministratore"
 
 #: ./vue/components/Setup/Settings.vue:17
-msgid "Customize AzuraCast Settings"
-msgstr "Personalizza impostazioni AzuraCast"
+msgid "Customize BoostCast Settings"
+msgstr "Personalizza impostazioni BoostCast"
 
 #: ./vue/components/Admin/Stations/Form/FrontendForm.vue:129
 msgid "Customize Broadcasting Port"
@@ -1087,7 +1087,7 @@ msgstr "Elimina copertina album"
 #: ./vue/components/Stations/Podcasts/EpisodeForm/BasicInfo.vue:51
 #: ./vue/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:49
 #: ./vue/components/Stations/Webhooks/Form/Discord.vue:65
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcast-episode.phtml:122
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcast-episode.phtml:122
 msgid "Description"
 msgstr "Descrizione"
 
@@ -1239,10 +1239,10 @@ msgstr "E-Mail"
 #: ./vue/components/Admin/Settings/TestMessageModal.vue:46
 #: ./vue/components/Admin/Users/Form.vue:20
 #: ./vue/components/Setup/Register.vue:80
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:46
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:50
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/forgot.phtml:21
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/forgot.phtml:25
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:46
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:50
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/forgot.phtml:21
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/forgot.phtml:25
 msgid "E-mail Address"
 msgstr "Indirizzo e-mail"
 
@@ -1281,8 +1281,8 @@ msgid "Edit Branding"
 msgstr ""
 
 #: ./vue/components/Stations/LiquidsoapConfig.vue:33
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/EditLiquidsoapConfigAction.php:61
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:240
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/EditLiquidsoapConfigAction.php:61
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:240
 msgid "Edit Liquidsoap Configuration"
 msgstr "Modifica configurazione Liquidsoap"
 
@@ -1293,9 +1293,9 @@ msgstr "Modifica media"
 #: ./vue/components/Account.vue:139
 #: ./vue/components/Account/EditModal.vue:10
 #: ./vue/components/Stations/Profile/HeaderPanel.vue:48
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/ProfileController.php:219
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:62
-#: /home/runner/work/AzuraCast/AzuraCast/templates/stations/sidebar.phtml:92
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/ProfileController.php:219
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:62
+#: /home/runner/work/BoostCast/BoostCast/templates/stations/sidebar.phtml:92
 msgid "Edit Profile"
 msgstr "Modifica profilo"
 
@@ -1396,7 +1396,7 @@ msgid "Enable to allow this account to log in and stream."
 msgstr "Abilita per consentire a questo account di accedere e trasmettere."
 
 #: ./vue/components/Admin/Backups/ConfigureModal.vue:40
-msgid "Enable to have AzuraCast automatically run nightly backups at the time specified."
+msgid "Enable to have BoostCast automatically run nightly backups at the time specified."
 msgstr "Consente ad Azuracast di eseguire automaticamente i backup notturni all'ora specificata."
 
 #: ./vue/components/Account.vue:202
@@ -1437,7 +1437,7 @@ msgid "Enlarge Album Art"
 msgstr ""
 
 #: ./vue/components/Stations/Webhooks/Form/Mastodon.vue:26
-msgid "Enter \"AzuraCast\" as the application name. You can leave the URL fields unchanged. For \"Scopes\", only \"write:media\" and \"write:statuses\" are required."
+msgid "Enter \"BoostCast\" as the application name. You can leave the URL fields unchanged. For \"Scopes\", only \"write:media\" and \"write:statuses\" are required."
 msgstr ""
 
 #: ./vue/components/Admin/StorageLocations/Form/Dropbox.vue:73
@@ -1466,9 +1466,9 @@ msgstr "Episodio"
 
 #: ./vue/components/Stations/Podcasts/EpisodesView.vue:52
 #: ./vue/components/Stations/Podcasts/ListView.vue:128
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcasts.phtml:41
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcasts.phtml:86
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcast-episodes.phtml:42
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcasts.phtml:41
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcasts.phtml:86
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcast-episodes.phtml:42
 msgid "Episodes"
 msgstr "Episodi"
 
@@ -1486,7 +1486,7 @@ msgid "Excluding media from automated backups will save space, but you should ma
 msgstr ""
 
 #: ./vue/components/Stations/Podcasts/EpisodesView.vue:134
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcast-episode.phtml:98
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcast-episode.phtml:98
 msgid "Explicit"
 msgstr ""
 
@@ -1581,7 +1581,7 @@ msgid "Generic Web Hooks"
 msgstr ""
 
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:44
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:98
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:98
 msgid "Genre"
 msgstr "Genere"
 
@@ -1603,8 +1603,8 @@ msgid "Hide Album Art on Public Pages"
 msgstr "Nascondi la copertina dell'album sulle pagine pubbliche"
 
 #: ./vue/components/Admin/Branding/BrandingForm.vue:91
-msgid "Hide AzuraCast Branding on Public Pages"
-msgstr "Nascondi il marchio AzuraCast nelle pagine pubbliche"
+msgid "Hide BoostCast Branding on Public Pages"
+msgstr "Nascondi il marchio BoostCast nelle pagine pubbliche"
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:190
 msgid "Hide Metadata from Listeners (\"Jingle Mode\")"
@@ -1623,8 +1623,8 @@ msgid "HLS"
 msgstr "HLS"
 
 #: ./vue/components/Stations/HlsStreams.vue:29
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/HlsStreamsAction.php:23
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:221
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/HlsStreamsAction.php:23
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:221
 msgid "HLS Streams"
 msgstr ""
 
@@ -1659,8 +1659,8 @@ msgid "If a song has no album art, this URL will be listed instead. Leave blank 
 msgstr "Se una canzone non ha copertina, questo URL verrà utilizzato. Lascia vuoto per utilizzare la copertina standard."
 
 #: ./vue/components/Admin/Branding/BrandingForm.vue:110
-msgid "If a visitor is not signed in and visits the AzuraCast homepage, you can automatically redirect them to the URL specified here. Leave blank to redirect them to the login screen by default."
-msgstr "Se un utente non ha effettuato l'accesso e visita la home page di AzuraCast, è possibile reindirizzarlo automaticamente all'URL specificato qui. Lascia vuoto per reindirizzare per default alla schermata di accesso."
+msgid "If a visitor is not signed in and visits the BoostCast homepage, you can automatically redirect them to the URL specified here. Leave blank to redirect them to the login screen by default."
+msgstr "Se un utente non ha effettuato l'accesso e visita la home page di BoostCast, è possibile reindirizzarlo automaticamente all'URL specificato qui. Lascia vuoto per reindirizzare per default alla schermata di accesso."
 
 #: ./vue/components/Stations/Playlists/Form/BasicInfo.vue:70
 msgid "If disabled, the playlist will not be included in radio playback, but can still be managed."
@@ -1675,11 +1675,11 @@ msgid "If enabled, a download button will also be present on the public \"On-Dem
 msgstr ""
 
 #: ./vue/components/Admin/Stations/Form/StreamersForm.vue:59
-msgid "If enabled, AzuraCast will automatically record any live broadcasts made to this station to per-broadcast recordings."
+msgid "If enabled, BoostCast will automatically record any live broadcasts made to this station to per-broadcast recordings."
 msgstr ""
 
 #: ./vue/components/Stations/Reports/SoundExchange.vue:91
-msgid "If enabled, AzuraCast will connect to the MusicBrainz database to attempt to find an ISRC for any files where one is missing. Disabling this may improve performance."
+msgid "If enabled, BoostCast will connect to the MusicBrainz database to attempt to find an ISRC for any files where one is missing. Disabling this may improve performance."
 msgstr ""
 
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:167
@@ -1715,8 +1715,8 @@ msgid "If selected, album art will not display on public-facing radio pages."
 msgstr "Se selezionato, la copertina dell'album non verrà visualizzata sulle pagine pubbliche della radio."
 
 #: ./vue/components/Admin/Branding/BrandingForm.vue:94
-msgid "If selected, this will remove the AzuraCast branding from public-facing pages."
-msgstr "Se selezionato, rimuoverà il marchio AzuraCast dalle pagine rivolte al pubblico."
+msgid "If selected, this will remove the BoostCast branding from public-facing pages."
+msgstr "Se selezionato, rimuoverà il marchio BoostCast dalle pagine rivolte al pubblico."
 
 #: ./vue/components/Admin/Backups/ConfigureModal.vue:56
 #: ./vue/components/Stations/Playlists/Form/ScheduleRow.vue:77
@@ -1840,19 +1840,19 @@ msgid "Insert"
 msgstr "Inserisci"
 
 #: ./vue/components/Admin/GeoLite.vue:43
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/GeoLiteAction.php:23
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:112
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/GeoLiteAction.php:23
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:112
 msgid "Install GeoLite IP Database"
 msgstr "Installa database IP GeoLite"
 
 #: ./vue/components/Admin/Shoutcast.vue:42
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/ShoutcastAction.php:28
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/ShoutcastAction.php:28
 msgid "Install Shoutcast 2 DNAS"
 msgstr "Installa Shoutcast 2 DNAS"
 
 #: ./vue/components/Admin/StereoTool.vue:41
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/StereoToolAction.php:23
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:107
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/StereoToolAction.php:23
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:107
 msgid "Install Stereo Tool"
 msgstr "Install Stereo Tool"
 
@@ -1895,7 +1895,7 @@ msgid "IP Geolocation is used to guess the approximate location of your listener
 msgstr ""
 
 #: ./vue/components/Stations/Media/Form/BasicInfo.vue:82
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:103
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:103
 msgid "ISRC"
 msgstr "ISRC"
 
@@ -1905,8 +1905,8 @@ msgstr "Modalità Jingle"
 
 #: ./vue/components/Account/EditForm.vue:53
 #: ./vue/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:62
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:104
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcasts.phtml:59
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:104
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcasts.phtml:59
 msgid "Language"
 msgstr "Lingua"
 
@@ -1923,7 +1923,7 @@ msgid "Learn about Advanced Playlists"
 msgstr "Scopri le playlist avanzate"
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:54
-msgid "Learn more about release channels in the AzuraCast docs."
+msgid "Learn more about release channels in the BoostCast docs."
 msgstr ""
 
 #: ./vue/components/Admin/Settings/SecurityPrivacyTab.vue:127
@@ -2000,32 +2000,32 @@ msgstr "Richiesta ascoltatore"
 #: ./vue/components/Stations/Profile/StreamsPanel.vue:111
 #: ./vue/components/Stations/Profile/StreamsPanel.vue:156
 #: ./vue/components/Stations/Reports/Listeners.vue:46
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/Reports/ListenersAction.php:25
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByStream.php:100
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:85
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:81
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByCountry.php:74
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByBrowser.php:61
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:79
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:126
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:181
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Frontend/Dashboard/ChartsAction.php:178
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:190
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/Reports/ListenersAction.php:25
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByStream.php:100
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:85
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:81
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByCountry.php:74
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByBrowser.php:61
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:79
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:126
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:181
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Frontend/Dashboard/ChartsAction.php:178
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:190
 msgid "Listeners"
 msgstr "Ascoltatori"
 
 #: ./vue/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:36
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:50
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:50
 msgid "Listeners by Day"
 msgstr "Ascoltatori per giorno"
 
 #: ./vue/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:52
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:98
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:98
 msgid "Listeners by Day of Week"
 msgstr "Ascoltatori per giorno della settimana"
 
 #: ./vue/components/Stations/Reports/Overview/ListenersByTimePeriodTab.vue:69
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:162
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:162
 msgid "Listeners by Hour"
 msgstr "Ascoltatori per ora"
 
@@ -2091,8 +2091,8 @@ msgid "Local Streams"
 msgstr "Flussi locali"
 
 #: ./vue/components/Admin/Users.vue:93
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:11
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/two_factor.phtml:3
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:11
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/two_factor.phtml:3
 msgid "Log In"
 msgstr "Accedi"
 
@@ -2103,7 +2103,7 @@ msgid "Log Viewer"
 msgstr "Visualizzatore log"
 
 #: ./vue/components/Stations/Queue.vue:66
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:279
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:279
 msgid "Logs"
 msgstr "Registri"
 
@@ -2231,7 +2231,7 @@ msgid "Measurement Protocol API Secret"
 msgstr ""
 
 #: ./vue/components/Stations/Podcasts/EpisodeForm/Media.vue:15
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:81
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:81
 msgid "Media"
 msgstr "Media"
 
@@ -2320,7 +2320,7 @@ msgid "Mixer"
 msgstr "Mixer"
 
 #: ./vue/components/Stations/Reports/Listeners.vue:136
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:62
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:62
 msgid "Mobile Device"
 msgstr "Dispositivo mobile"
 
@@ -2351,8 +2351,8 @@ msgid "Mount Point URL"
 msgstr "URL mount point"
 
 #: ./vue/components/Stations/Mounts.vue:32
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/MountsAction.php:33
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:214
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/MountsAction.php:33
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:214
 msgid "Mount Points"
 msgstr "Mount Point"
 
@@ -2370,8 +2370,8 @@ msgstr "Sposta nella cartella"
 
 #: ./vue/components/Stations/Media.vue:78
 #: ./vue/components/Stations/Profile/BackendPanel.vue:51
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/FilesAction.php:49
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:86
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/FilesAction.php:49
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:86
 msgid "Music Files"
 msgstr "File musicali"
 
@@ -2381,8 +2381,8 @@ msgstr "Silenzia"
 
 #: ./vue/components/Account.vue:73
 #: ./vue/components/Dashboard.vue:142
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Profile/IndexAction.php:29
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:114
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Profile/IndexAction.php:29
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:114
 msgid "My Account"
 msgstr "Il mio account"
 
@@ -2489,8 +2489,8 @@ msgid "Note: the port after this one will automatically be used for legacy conne
 msgstr ""
 
 #: ./vue/components/Admin/Stations/Form/ProfileForm.vue:58
-msgid "Note: This should be the public-facing homepage of the radio station, not the AzuraCast URL. It will be included in broadcast details."
-msgstr "Nota: questa dovrebbe essere la home page pubblica della stazione radio, non l'URL AzuraCast. Sarà inclusa nei dettagli della web radio."
+msgid "Note: This should be the public-facing homepage of the radio station, not the BoostCast URL. It will be included in broadcast details."
+msgstr "Nota: questa dovrebbe essere la home page pubblica della stazione radio, non l'URL BoostCast. Sarà inclusa nei dettagli della web radio."
 
 #: ./vue/components/Stations/Profile/SchedulePanel.vue:54
 msgid "Now"
@@ -2537,8 +2537,8 @@ msgstr ""
 
 #: ./vue/components/Public/OnDemand.vue:43
 #: ./vue/components/Stations/Profile/PublicPagesPanel.vue:75
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/PublicPages/OnDemandAction.php:74
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:107
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/PublicPages/OnDemandAction.php:74
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:107
 msgid "On-Demand Media"
 msgstr ""
 
@@ -2646,8 +2646,8 @@ msgstr ""
 #: ./vue/components/Recover.vue:67
 #: ./vue/components/Setup/Register.vue:96
 #: ./vue/components/Stations/SftpUsers/Form.vue:39
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:55
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:59
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:55
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:59
 msgid "Password"
 msgstr "Password"
 
@@ -2736,8 +2736,8 @@ msgstr "Playlist:"
 #: ./vue/components/Stations/Media/MediaToolbar.vue:43
 #: ./vue/components/Stations/Playlists.vue:65
 #: ./vue/components/Stations/Profile/BackendPanel.vue:55
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/PlaylistsAction.php:33
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:128
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/PlaylistsAction.php:33
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:128
 msgid "Playlists"
 msgstr "Playlist"
 
@@ -2755,8 +2755,8 @@ msgstr ""
 
 #: ./vue/components/Stations/Podcasts/ListView.vue:35
 #: ./vue/components/Stations/Profile/PublicPagesPanel.vue:85
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/PodcastsAction.php:33
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:136
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/PodcastsAction.php:33
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:136
 msgid "Podcasts"
 msgstr ""
 
@@ -2792,8 +2792,8 @@ msgstr "Privacy"
 
 #: ./vue/components/Account.vue:79
 #: ./vue/components/Admin/Stations/StationForm.vue:49
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/ProfileController.php:76
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:54
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/ProfileController.php:76
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:54
 msgid "Profile"
 msgstr "Profilo"
 
@@ -2810,7 +2810,7 @@ msgstr ""
 #: ./vue/components/Stations/Podcasts/EpisodesView.vue:121
 #: ./vue/components/Stations/Podcasts/ListView.vue:92
 #: ./vue/components/Stations/Profile/PublicPagesPanel.vue:54
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:74
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:74
 msgid "Public Page"
 msgstr "Pagina pubblica"
 
@@ -2860,7 +2860,7 @@ msgstr "Registra Trasmissioni Dal Vivo"
 
 #: ./vue/components/Recover.vue:35
 #: ./vue/components/Recover.vue:80
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/RecoverAction.php:84
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/RecoverAction.php:84
 msgid "Recover Account"
 msgstr "Recupera Account"
 
@@ -2874,7 +2874,7 @@ msgid "Region"
 msgstr "Regione"
 
 #: ./vue/components/Stations/Profile/FrontendPanel.vue:110
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/relays/index.phtml:35
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/relays/index.phtml:35
 msgid "Relay"
 msgstr ""
 
@@ -2884,7 +2884,7 @@ msgstr "URL flusso da ritrasmettere"
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:51
 #: ./vue/components/Admin/Updates.vue:119
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:36
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:36
 msgid "Release Channel"
 msgstr ""
 
@@ -2902,8 +2902,8 @@ msgstr "Buffer di riproduzione remota (secondi)"
 
 #: ./vue/components/Stations/Profile/StreamsPanel.vue:110
 #: ./vue/components/Stations/Remotes.vue:30
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/RemotesAction.php:24
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:227
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/RemotesAction.php:24
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:227
 msgid "Remote Relays"
 msgstr "Collegamenti remoti"
 
@@ -3058,8 +3058,8 @@ msgid "Roles"
 msgstr "Ruoli"
 
 #: ./vue/components/Admin/Permissions.vue:29
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/PermissionsAction.php:31
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:66
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/PermissionsAction.php:31
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:66
 msgid "Roles & Permissions"
 msgstr "Ruoli e permessi"
 
@@ -3068,9 +3068,9 @@ msgid "Rows per page"
 msgstr "Righe per pagina"
 
 #: ./vue/components/Stations/Podcasts/ListView.vue:97
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcasts.phtml:79
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcast-episodes.phtml:55
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcast-episode.phtml:64
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcasts.phtml:79
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcast-episodes.phtml:55
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcast-episode.phtml:64
 msgid "RSS Feed"
 msgstr ""
 
@@ -3116,7 +3116,7 @@ msgstr ""
 #: ./vue/components/Stations/Playlists/Form/Schedule.vue:12
 #: ./vue/components/Stations/Profile/PublicPagesPanel.vue:94
 #: ./vue/components/Stations/Streamers/Form/Schedule.vue:12
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/PublicPages/ScheduleAction.php:47
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/PublicPages/ScheduleAction.php:47
 msgid "Schedule"
 msgstr ""
 
@@ -3352,7 +3352,7 @@ msgid "Settings"
 msgstr "Impostazioni"
 
 #: ./vue/components/Stations/Streamers/ConnectionInfo.vue:94
-msgid "Setup instructions for broadcasting software are available on the AzuraCast wiki."
+msgid "Setup instructions for broadcasting software are available on the BoostCast wiki."
 msgstr ""
 
 #: ./vue/components/Admin/StorageLocations/Form/Sftp.vue:28
@@ -3364,7 +3364,7 @@ msgid "SFTP Password"
 msgstr ""
 
 #: ./vue/components/Admin/StorageLocations/Form/Sftp.vue:41
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:56
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:56
 msgid "SFTP Port"
 msgstr ""
 
@@ -3381,8 +3381,8 @@ msgid "SFTP Username"
 msgstr ""
 
 #: ./vue/components/Stations/SftpUsers.vue:44
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/SftpUsersAction.php:38
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:114
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/SftpUsersAction.php:38
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:114
 msgid "SFTP Users"
 msgstr "Utenti SFTP"
 
@@ -3391,7 +3391,7 @@ msgid "Shoutcast 2 DNAS is not currently installed on this installation."
 msgstr ""
 
 #: ./vue/components/Admin/Shoutcast.vue:54
-msgid "Shoutcast 2 DNAS is not free software, and its restrictive license does not allow AzuraCast to distribute the Shoutcast binary."
+msgid "Shoutcast 2 DNAS is not free software, and its restrictive license does not allow BoostCast to distribute the Shoutcast binary."
 msgstr ""
 
 #: ./vue/components/Stations/Streamers/ConnectionInfo.vue:64
@@ -3416,7 +3416,7 @@ msgid "Show HLS Stream on Public Player"
 msgstr ""
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:70
-msgid "Show new releases within your update channel on the AzuraCast homepage."
+msgid "Show new releases within your update channel on the BoostCast homepage."
 msgstr ""
 
 #: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:56
@@ -3508,8 +3508,8 @@ msgid "Song Playback Order"
 msgstr "Ordine di riproduzione brani"
 
 #: ./vue/components/Stations/Reports/Timeline.vue:28
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/Reports/TimelineAction.php:25
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:199
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/Reports/TimelineAction.php:25
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:199
 msgid "Song Playback Timeline"
 msgstr "Orari riproduzione brani"
 
@@ -3518,8 +3518,8 @@ msgstr "Orari riproduzione brani"
 #: ./vue/components/Stations/Profile/RequestsPanel.vue:36
 #: ./vue/components/Stations/Profile/RequestsPanel.vue:69
 #: ./vue/components/Stations/Reports/Requests.vue:28
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/Reports/RequestsAction.php:25
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:194
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/Reports/RequestsAction.php:25
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:194
 msgid "Song Requests"
 msgstr "Richieste di brani"
 
@@ -3540,7 +3540,7 @@ msgid "Song-Based Playlist"
 msgstr "Playlist basata sul brano"
 
 #: ./vue/components/Stations/Reports/SoundExchange.vue:41
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/Reports/SoundExchangeAction.php:33
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/Reports/SoundExchangeAction.php:33
 msgid "SoundExchange Report"
 msgstr "Report SoundExchange"
 
@@ -3605,8 +3605,8 @@ msgid "Station Permissions"
 msgstr ""
 
 #: ./vue/components/Stations/Reports/Overview.vue:27
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/Reports/OverviewAction.php:39
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:186
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/Reports/OverviewAction.php:39
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:186
 msgid "Station Statistics"
 msgstr "Statistiche"
 
@@ -3616,9 +3616,9 @@ msgid "Station Time Zone"
 msgstr "Fuso orario della stazione"
 
 #: ./vue/components/Admin/Stations.vue:28
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/StationsAction.php:31
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:83
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:87
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/StationsAction.php:31
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:83
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:87
 msgid "Stations"
 msgstr "Stazioni"
 
@@ -3673,7 +3673,7 @@ msgid "Stereo Tool is not currently installed on this installation."
 msgstr ""
 
 #: ./vue/components/Admin/StereoTool.vue:54
-msgid "Stereo Tool is not free software, and its restrictive license does not allow AzuraCast to distribute the Stereo Tool binary."
+msgid "Stereo Tool is not free software, and its restrictive license does not allow BoostCast to distribute the Stereo Tool binary."
 msgstr ""
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:247
@@ -3697,8 +3697,8 @@ msgid "Storage Location"
 msgstr "Posizione Di Archiviazione"
 
 #: ./vue/components/Admin/StorageLocations.vue:31
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/StorageLocationsAction.php:23
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:35
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/StorageLocationsAction.php:23
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:35
 msgid "Storage Locations"
 msgstr ""
 
@@ -3731,8 +3731,8 @@ msgid "Streamer/DJ"
 msgstr "Streamer/DJ"
 
 #: ./vue/components/Stations/Streamers.vue:46
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/StreamersAction.php:37
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:149
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/StreamersAction.php:37
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:149
 msgid "Streamer/DJ Accounts"
 msgstr "Account streamer/Dj"
 
@@ -3761,17 +3761,17 @@ msgid "Supported file formats:"
 msgstr ""
 
 #: ./vue/components/Admin/Logs.vue:36
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/LogsAction.php:44
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:30
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/LogsAction.php:44
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:30
 msgid "System Logs"
 msgstr "Log di sistema"
 
 #: ./vue/components/Admin/Settings.vue:34
 #: ./vue/components/Setup/SetupStep.vue:49
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/BaseUrlCheck.php:61
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/SettingsAction.php:30
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/SetupController.php:169
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:20
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/BaseUrlCheck.php:61
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/SettingsAction.php:30
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/SetupController.php:169
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:20
 msgid "System Settings"
 msgstr "Impostazioni sistema"
 
@@ -3828,7 +3828,7 @@ msgid "The display name assigned to this relay when viewing it on administrative
 msgstr "Il nome visibile assegnato a questo collegamento durante la visualizzazione su pagine di amministrazione o pubbliche. Lascia vuoto per generarne automaticamente uno."
 
 #: ./vue/components/Stations/LiquidsoapConfig.vue:38
-msgid "The editable text boxes are areas where you can insert custom configuration code. The non-editable sections are automatically generated by AzuraCast."
+msgid "The editable text boxes are areas where you can insert custom configuration code. The non-editable sections are automatically generated by BoostCast."
 msgstr ""
 
 #: ./vue/components/Stations/Podcasts/PodcastForm/BasicInfo.vue:101
@@ -4004,7 +4004,7 @@ msgid "This introduction file should exactly match the bitrate and format of the
 msgstr ""
 
 #: ./vue/components/Stations/LiquidsoapConfig.vue:39
-msgid "This is an advanced feature and custom code is not officially supported by AzuraCast. You may break your station by adding custom code, but removing it should fix any issues."
+msgid "This is an advanced feature and custom code is not officially supported by BoostCast. You may break your station by adding custom code, but removing it should fix any issues."
 msgstr ""
 
 #: ./vue/components/Stations/Streamers/Form/BasicInfo.vue:59
@@ -4024,7 +4024,7 @@ msgid "This javascript code will be applied to the station public pages."
 msgstr ""
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:298
-msgid "This mode disables AzuraCast's AutoDJ management, using Liquidsoap itself to manage song playback. \"Next Song\" and some other features will not be available."
+msgid "This mode disables BoostCast's AutoDJ management, using Liquidsoap itself to manage song playback. \"Next Song\" and some other features will not be available."
 msgstr ""
 
 #: ./vue/components/Stations/Mounts/Form/BasicInfo.vue:33
@@ -4032,8 +4032,8 @@ msgid "This name should always begin with a slash (/), and must be a valid URL, 
 msgstr "Questo nome dovrebbe sempre iniziare con una barra (/), ed essere una URL valida, come /autodj.mp3"
 
 #: ./vue/components/Admin/Settings/GeneralTab.vue:37
-msgid "This name will appear as a sub-header next to the AzuraCast logo, to help identify this server."
-msgstr "Questo nome apparirà come sottotitolo accanto al logo AzuraCast, per aiutare a identificare questo server."
+msgid "This name will appear as a sub-header next to the BoostCast logo, to help identify this server."
+msgstr "Questo nome apparirà come sottotitolo accanto al logo BoostCast, per aiutare a identificare questo server."
 
 #: ./vue/components/Admin/ApiKeys.vue:32
 msgid "This page lists all API keys assigned to all users across the system."
@@ -4056,7 +4056,7 @@ msgid "This port is not used by any external process. Only modify this port if t
 msgstr ""
 
 #: ./vue/components/Stations/Playlists/QueueModal.vue:45
-msgid "This queue contains the remaining tracks in the order they will be queued by the AzuraCast AutoDJ (if the tracks are eligible to be played)."
+msgid "This queue contains the remaining tracks in the order they will be queued by the BoostCast AutoDJ (if the tracks are eligible to be played)."
 msgstr ""
 
 #: ./vue/components/Admin/Settings/ServicesTab.vue:335
@@ -4138,7 +4138,7 @@ msgstr "Fuso orario"
 #: ./vue/components/Stations/Playlists/QueueModal.vue:59
 #: ./vue/components/Stations/Playlists/ReorderModal.vue:54
 #: ./vue/components/Stations/Webhooks/Form/Discord.vue:54
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:131
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:131
 msgid "Title"
 msgstr "Titolo"
 
@@ -4292,8 +4292,8 @@ msgid "Up"
 msgstr "Su"
 
 #: ./vue/components/Stations/Queue.vue:33
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/QueueAction.php:25
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:254
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/QueueAction.php:25
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:254
 msgid "Upcoming Song Queue"
 msgstr "Coda di brani imminente"
 
@@ -4302,14 +4302,14 @@ msgid "Update"
 msgstr "Aggiorna"
 
 #: ./vue/components/Admin/Updates.vue:92
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/UpdateCheck.php:43
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/UpdatesAction.php:33
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:50
-msgid "Update AzuraCast"
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/UpdateCheck.php:43
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/UpdatesAction.php:33
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:50
+msgid "Update BoostCast"
 msgstr ""
 
 #: ./vue/components/Admin/Updates.vue:138
-msgid "Update AzuraCast via Web"
+msgid "Update BoostCast via Web"
 msgstr ""
 
 #: ./vue/components/Admin/Updates.vue:97
@@ -4347,8 +4347,8 @@ msgstr ""
 
 #: ./vue/components/Admin/Stations/Form/BackendForm.vue:259
 #: ./vue/components/Stations/StereoToolConfig.vue:32
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/UploadStereoToolConfigAction.php:25
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:246
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/UploadStereoToolConfigAction.php:25
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:246
 msgid "Upload Stereo Tool Configuration"
 msgstr ""
 
@@ -4374,7 +4374,7 @@ msgid "Use (Us)"
 msgstr ""
 
 #: ./vue/components/Account.vue:219
-msgid "Use API keys to authenticate with the AzuraCast API using the same permissions as your user account."
+msgid "Use API keys to authenticate with the BoostCast API using the same permissions as your user account."
 msgstr ""
 
 #: ./vue/components/Admin/Settings/GeneralTab.vue:95
@@ -4419,8 +4419,8 @@ msgid "Username:"
 msgstr ""
 
 #: ./vue/components/Admin/Users.vue:35
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/UsersAction.php:29
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:57
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/UsersAction.php:29
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:57
 msgid "Users"
 msgstr "Utenti"
 
@@ -4499,8 +4499,8 @@ msgid "Waveform Zoom"
 msgstr ""
 
 #: ./vue/components/Stations/Profile/PublicPagesPanel.vue:64
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:156
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/webdj.phtml:13
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:156
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/webdj.phtml:13
 msgid "Web DJ"
 msgstr "Web DJ"
 
@@ -4521,8 +4521,8 @@ msgid "Web Hook URL"
 msgstr "URL interazione web"
 
 #: ./vue/components/Stations/Webhooks.vue:30
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/WebhooksAction.php:33
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:173
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/WebhooksAction.php:33
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:173
 msgid "Web Hooks"
 msgstr "Interazioni web"
 
@@ -4556,8 +4556,8 @@ msgid "Weight"
 msgstr ""
 
 #: ./vue/components/Setup/Register.vue:43
-msgid "Welcome to AzuraCast!"
-msgstr "Benvenuto in AzuraCast!"
+msgid "Welcome to BoostCast!"
+msgstr "Benvenuto in BoostCast!"
 
 #: ./vue/components/Account/ApiKeyNewKey.vue:28
 msgid "When making API calls, you can pass this value in the \"X-API-Key\" header to authenticate as yourself."
@@ -4596,8 +4596,8 @@ msgid "You can only perform the actions your user account is allowed to perform.
 msgstr ""
 
 #: ./vue/components/Stations/Mounts/Form/Advanced.vue:31
-msgid "You can set a custom URL for this stream that AzuraCast will use when referring to it. Leave empty to use the default value."
-msgstr "È possibile impostare un URL personalizzato per questo flusso che AzuraCast utilizzerà quando farà riferimento ad esso. Lascia vuoto per utilizzare il valore predefinito."
+msgid "You can set a custom URL for this stream that BoostCast will use when referring to it. Leave empty to use the default value."
+msgstr "È possibile impostare un URL personalizzato per questo flusso che BoostCast utilizzerà quando farà riferimento ad esso. Lascia vuoto per utilizzare il valore predefinito."
 
 #: ./vue/components/Stations/SftpUsers.vue:114
 msgid "You may need to connect directly to your IP address:"
@@ -4636,1946 +4636,1946 @@ msgstr "Hash di autorizzazione alla directory di YP"
 msgid "ZStandard compression"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Validator/Constraints/StationPortCheckerValidator.php:41
+#: /home/runner/work/BoostCast/BoostCast/src/Validator/Constraints/StationPortCheckerValidator.php:41
 #, php-format
 msgid "The port %s is in use by another station."
 msgstr "La porta %s è in uso da un'altra stazione."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Validator/Constraints/UniqueEntityValidator.php:167
+#: /home/runner/work/BoostCast/BoostCast/src/Validator/Constraints/UniqueEntityValidator.php:167
 msgid "This value is already used."
 msgstr "Questo valore è già utilizzato."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Validator/Constraints/StorageLocationValidator.php:40
+#: /home/runner/work/BoostCast/BoostCast/src/Validator/Constraints/StorageLocationValidator.php:40
 #, php-format
 msgid "Storage location %s could not be validated: %s"
 msgstr "La posizione di archiviazione %s non può essere convalidata: %s"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Validator/Constraints/StorageLocationValidator.php:71
+#: /home/runner/work/BoostCast/BoostCast/src/Validator/Constraints/StorageLocationValidator.php:71
 #, php-format
 msgid "Storage location %s already exists."
 msgstr "La posizione di archiviazione %s esiste già."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Doctrine/Repository.php:111
+#: /home/runner/work/BoostCast/BoostCast/src/Doctrine/Repository.php:111
 msgid "Select..."
 msgstr "Seleziona..."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/RecentBackupCheck.php:49
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/RecentBackupCheck.php:49
 msgid "Installation Not Recently Backed Up"
 msgstr "Questa Installazione Non Ha Eseguito Di Recente Il Backup"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/RecentBackupCheck.php:50
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/RecentBackupCheck.php:50
 msgid "This installation has not been backed up in the last two weeks."
 msgstr "Questa installazione non è stata salvata nelle ultime due settimane."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/ServiceCheck.php:34
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/ServiceCheck.php:34
 #, php-format
 msgid "Service Not Running: %s"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/ServiceCheck.php:35
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/ServiceCheck.php:35
 msgid "One of the essential services on this installation is not currently running. Visit the system administration and check the system logs to find the cause of this issue."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/BaseUrlCheck.php:45
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/BaseUrlCheck.php:45
 msgid "You may want to update your base URL to ensure it is correct."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/BaseUrlCheck.php:48
-msgid "If you regularly use different URLs to access AzuraCast, you should enable the \"Prefer Browser URL\" setting."
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/BaseUrlCheck.php:48
+msgid "If you regularly use different URLs to access BoostCast, you should enable the \"Prefer Browser URL\" setting."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/BaseUrlCheck.php:55
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/BaseUrlCheck.php:55
 #, php-format
 msgid "Your \"Base URL\" setting (%s) does not match the URL you are currently using (%s)."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/UpdateCheck.php:50
-msgid "New AzuraCast Stable Release Available"
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/UpdateCheck.php:50
+msgid "New BoostCast Stable Release Available"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/UpdateCheck.php:54
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/UpdateCheck.php:54
 #, php-format
 msgid "Version %s is now available. You are currently running version %s. Updating is recommended."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/UpdateCheck.php:70
-msgid "New AzuraCast Rolling Release Available"
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/UpdateCheck.php:70
+msgid "New BoostCast Rolling Release Available"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/UpdateCheck.php:74
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/UpdateCheck.php:74
 #, php-format
 msgid "Your installation is currently %d update(s) behind the latest version. Updating is recommended."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/ProfilerAdvisorCheck.php:37
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/ProfilerAdvisorCheck.php:37
 msgid "The performance profiling extension is currently enabled on this installation."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/ProfilerAdvisorCheck.php:38
-msgid "You can track the execution time and memory usage of any AzuraCast page or application from the profiler page."
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/ProfilerAdvisorCheck.php:38
+msgid "You can track the execution time and memory usage of any BoostCast page or application from the profiler page."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/ProfilerAdvisorCheck.php:44
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/ProfilerAdvisorCheck.php:44
 msgid "Profiler Control Panel"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/ProfilerAdvisorCheck.php:56
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/ProfilerAdvisorCheck.php:56
 msgid "Performance profiling is currently enabled for all requests."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/ProfilerAdvisorCheck.php:57
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/ProfilerAdvisorCheck.php:57
 msgid "This can have an adverse impact on system performance. You should disable this when possible."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/SyncTaskCheck.php:38
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/SyncTaskCheck.php:38
 msgid "Synchronization Disabled"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/SyncTaskCheck.php:39
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/SyncTaskCheck.php:39
 msgid "Routine synchronization is currently disabled. Make sure to re-enable it to resume routine maintenance tasks."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/SyncTaskCheck.php:53
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/SyncTaskCheck.php:53
 msgid "Synchronization Not Recently Run"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/SyncTaskCheck.php:54
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/SyncTaskCheck.php:54
 msgid "The routine synchronization task has not run recently. This may indicate an error with your installation."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Notification/Check/SyncTaskCheck.php:61
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:45
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:11
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:30
+#: /home/runner/work/BoostCast/BoostCast/src/Notification/Check/SyncTaskCheck.php:61
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:45
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:11
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:30
 msgid "System Debugger"
 msgstr "Debug Di Sistema"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:178
-msgid "AzuraCast Installer"
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/Command/InstallCommand.php:178
+msgid "BoostCast Installer"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:181
-msgid "Welcome to AzuraCast! Complete the initial server setup by answering a few questions."
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/Command/InstallCommand.php:181
+msgid "Welcome to BoostCast! Complete the initial server setup by answering a few questions."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:187
-msgid "AzuraCast Updater"
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/Command/InstallCommand.php:187
+msgid "BoostCast Updater"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:194
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/Command/InstallCommand.php:194
 msgid "Change installation settings?"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:203
-msgid "AzuraCast is currently configured to listen on the following ports:"
-msgstr "AzuraCast è attualmente configurato per ascoltare le seguenti porte:"
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/Command/InstallCommand.php:203
+msgid "BoostCast is currently configured to listen on the following ports:"
+msgstr "BoostCast è attualmente configurato per ascoltare le seguenti porte:"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:207
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/Command/InstallCommand.php:207
 #, php-format
 msgid "HTTP Port: %d"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:208
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/Command/InstallCommand.php:208
 #, php-format
 msgid "HTTPS Port: %d"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:209
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/Command/InstallCommand.php:209
 #, php-format
 msgid "SFTP Port: %d"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:210
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/Command/InstallCommand.php:210
 #, php-format
 msgid "Radio Ports: %s"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:215
-msgid "Customize ports used for AzuraCast?"
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/Command/InstallCommand.php:215
+msgid "Customize ports used for BoostCast?"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:264
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/Command/InstallCommand.php:264
 msgid "Writing configuration files..."
 msgstr "Scrittura dei file di configurazione..."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/Command/InstallCommand.php:289
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/Command/InstallCommand.php:289
 msgid "Server configuration complete!"
 msgstr "Configurazione del server completata!"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:35
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:35
 msgid "The locale to use for CLI commands."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:41
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:41
 msgid "The application environment."
 msgstr "L'ambiente applicativo."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:46
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:46
 msgid "Manually modify the logging level."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:47
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:47
 msgid "This allows you to log debug-level errors temporarily (for problem-solving) or reduce the volume of logs that are produced by your installation, without needing to modify whether your installation is a production or development instance."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:62
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:62
 msgid "Enable Custom Code Plugins"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:63
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:63
 msgid "Enable the composer \"merge\" functionality to combine the main application's composer.json file with any plugin composer files. This can have performance implications, so you should only use it if you use one or more plugins with their own Composer dependencies."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:70
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:70
 msgid "Minimum Port for Station Port Assignment"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:71
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:77
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:71
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:77
 msgid "Modify this if your stations are listening on nonstandard ports."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:76
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:76
 msgid "Maximum Port for Station Port Assignment"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:82
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:82
 msgid "Show Detailed Slim Application Errors"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:83
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:83
 msgid "This allows you to debug Slim Application Errors you may encounter. Please report any Slim Application Error logs to the development team on GitHub."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:90
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:90
 msgid "MariaDB Host"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:91
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:99
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:107
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:115
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:123
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:131
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:137
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:91
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:99
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:107
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:115
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:123
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:131
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:137
 msgid "Do not modify this after installation."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:98
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:98
 msgid "MariaDB Port"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:106
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:106
 msgid "MariaDB Username"
 msgstr "MariaDB Nome utente"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:114
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:114
 msgid "MariaDB Password"
 msgstr "Password MariaDB"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:122
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:122
 msgid "MariaDB Database Name"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:130
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:130
 msgid "Auto-generate Random MariaDB Root Password"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:136
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:136
 msgid "MariaDB Root Password"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:142
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:142
 msgid "Enable MariaDB Slow Query Log"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:143
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:143
 msgid "Log slower queries to diagnose possible database issues. Only turn this on if needed."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:149
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:149
 msgid "MariaDB Maximum Connections"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:150
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:150
 msgid "Set the amount of allowed connections to the database. This value should be increased if you are seeing the \"Too many connections\" error in the logs."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:156
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:156
 msgid "MariaDB InnoDB Buffer Pool Size"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:157
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:157
 msgid "The InnoDB buffer pool size controls how much data & indexes are kept in memory. Making sure that this value is as large as possible reduces the amount of disk IO."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:163
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:163
 msgid "MariaDB InnoDB Log File Size"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:164
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:164
 msgid "The InnoDB log file is used to achieve data durability in case of crashes or unexpected shutoffs and to allow the DB to better optimize IO for write operations."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:170
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:170
 msgid "Enable Redis"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:171
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:171
 msgid "Disable to use a flatfile cache instead of Redis."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:176
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:176
 msgid "Redis Host"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:181
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:181
 msgid "Redis Port"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:186
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:186
 msgid "Redis Database Index"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:192
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:192
 msgid "PHP Maximum POST File Size"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:196
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:196
 msgid "PHP Memory Limit"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:200
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:200
 msgid "PHP Script Maximum Execution Time (Seconds)"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:204
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:204
 msgid "Short Sync Task Execution Time (Seconds)"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:205
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:205
 msgid "The maximum execution time (and lock timeout) for the 15-second, 1-minute and 5-minute synchronization tasks."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:210
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:210
 msgid "Long Sync Task Execution Time (Seconds)"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:211
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:211
 msgid "The maximum execution time (and lock timeout) for the 1-hour synchronization task."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:216
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:216
 msgid "Now Playing Delay Time (Seconds)"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:217
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:217
 msgid "The delay between Now Playing checks for every station. Decrease for more frequent checks at the expense of performance; increase for less frequent checks but better performance (for large installations)."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:222
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:222
 msgid "Maximum PHP-FPM Worker Processes"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:226
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:226
 msgid "Enable Performance Profiling Extension"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:228
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:228
 #, php-format
 msgid "Profiling data can be viewed by visiting %s."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:233
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:233
 msgid "Profile Performance on All Requests"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:234
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:234
 msgid "This will have a significant performance impact on your installation."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:239
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:239
 msgid "Profiling Extension HTTP Key"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:240
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:240
 msgid "The value for the \"SPX_KEY\" parameter for viewing profiling pages."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:245
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:245
 msgid "Profiling Extension IP Allow List"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:250
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:250
 msgid "Enable web-based Docker image updates"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:254
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:254
 msgid "Extra Ubuntu packages to install upon startup"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AzuraCastEnvFile.php:255
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/BoostCastEnvFile.php:255
 msgid "Separate package names with a space. Packages will be installed during container startup."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AbstractEnvFile.php:90
-msgid "This file was automatically generated by AzuraCast."
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/AbstractEnvFile.php:90
+msgid "This file was automatically generated by BoostCast."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AbstractEnvFile.php:91
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/AbstractEnvFile.php:91
 msgid "You can modify it as necessary. To apply changes, restart the Docker containers."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AbstractEnvFile.php:92
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/AbstractEnvFile.php:92
 msgid "Remove the leading \"#\" symbol from lines to uncomment them."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AbstractEnvFile.php:113
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/AbstractEnvFile.php:113
 #, php-format
 msgid "Valid options: %s"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AbstractEnvFile.php:125
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/AbstractEnvFile.php:125
 #, php-format
 msgid "Default: %s"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/AbstractEnvFile.php:144
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/AbstractEnvFile.php:144
 msgid "Additional Environment Variables"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:22
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:22
 msgid "(Docker Compose) All Docker containers are prefixed by this name. Do not change this after installation."
 msgstr "(Docker Compose) Tutti i contenitori Docker sono prefissati da questo nome. Non modificarli dopo l'installazione."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:29
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:29
 msgid "(Docker Compose) The amount of time to wait before a Docker Compose operation fails. Increase this on lower performance computers."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:42
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:42
 msgid "HTTP Port"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:43
-msgid "The main port AzuraCast listens to for insecure HTTP connections."
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:43
+msgid "The main port BoostCast listens to for insecure HTTP connections."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:49
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:49
 msgid "HTTPS Port"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:50
-msgid "The main port AzuraCast listens to for secure HTTPS connections."
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:50
+msgid "The main port BoostCast listens to for secure HTTPS connections."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:57
-msgid "The port AzuraCast listens to for SFTP file management connections."
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:57
+msgid "The port BoostCast listens to for SFTP file management connections."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:63
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:63
 msgid "Station Ports"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:64
-msgid "The ports AzuraCast should listen to for station broadcasts and incoming DJ connections."
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:64
+msgid "The ports BoostCast should listen to for station broadcasts and incoming DJ connections."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:70
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:70
 msgid "Docker User UID"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:71
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:71
 msgid "Set the UID of the user running inside the Docker containers. Matching this with your host UID can fix permission issues."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:77
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:77
 msgid "Docker User GID"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:78
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:78
 msgid "Set the GID of the user running inside the Docker containers. Matching this with your host GID can fix permission issues."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:84
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:84
 msgid "Use Podman instead of Docker."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Installer/EnvFiles/EnvFile.php:88
+#: /home/runner/work/BoostCast/BoostCast/src/Installer/EnvFiles/EnvFile.php:88
 msgid "Advanced: Use Privileged Docker Settings"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Http/ErrorHandler.php:166
-#: /home/runner/work/AzuraCast/AzuraCast/src/Http/ErrorHandler.php:178
+#: /home/runner/work/BoostCast/BoostCast/src/Http/ErrorHandler.php:166
+#: /home/runner/work/BoostCast/BoostCast/src/Http/ErrorHandler.php:178
 msgid "You must be logged in to access this page."
 msgstr "Devi esserti autenticato per poter accedere a questa pagina."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Http/ErrorHandler.php:196
-#: /home/runner/work/AzuraCast/AzuraCast/src/Http/ErrorHandler.php:208
+#: /home/runner/work/BoostCast/BoostCast/src/Http/ErrorHandler.php:196
+#: /home/runner/work/BoostCast/BoostCast/src/Http/ErrorHandler.php:208
 msgid "You do not have permission to access this portion of the site."
 msgstr "Non hai il permesso per accedere a questa parte del sito."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:79
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:79
 msgid "Album Artist"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:80
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:80
 msgid "Album Artist Sort Order"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:81
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:81
 msgid "Album Sort Order"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:83
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:83
 msgid "Band"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:84
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:84
 msgid "BPM"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:85
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:85
 msgid "Comment"
 msgstr "Commento"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:86
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:86
 msgid "Commercial Information"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:87
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:87
 msgid "Composer"
 msgstr "Compositore"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:88
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:88
 msgid "Composer Sort Order"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:89
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:89
 msgid "Conductor"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:90
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:90
 msgid "Content Group Description"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:91
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:91
 msgid "Copyright"
 msgstr "Copyright"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:92
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:92
 msgid "Copyright Message"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:93
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:93
 msgid "Encoded By"
 msgstr "Codificato da"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:94
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:94
 msgid "Encoder Settings"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:95
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:95
 msgid "Encoding Time"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:96
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:96
 msgid "File Owner"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:97
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:97
 msgid "File Type"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:99
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:99
 msgid "Initial Key"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:100
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:100
 msgid "Internet Radio Station Name"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:101
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:101
 msgid "Internet Radio Station Owner"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:102
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:102
 msgid "Involved People List"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:105
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:105
 msgid "Length"
 msgstr "Lunghezza"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:106
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:106
 msgid "Linked Information"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:107
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:107
 msgid "Lyricist"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:108
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:108
 msgid "Media Type"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:109
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:109
 msgid "Mood"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:110
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:110
 msgid "Music CD Identifier"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:111
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:111
 msgid "Musician Credits List"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:112
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:112
 msgid "Original Album"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:113
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:113
 msgid "Original Artist"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:114
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:114
 msgid "Original Filename"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:115
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:115
 msgid "Original Lyricist"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:116
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:116
 msgid "Original Release Time"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:117
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:117
 msgid "Original Year"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:118
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:118
 msgid "Part of a Compilation"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:119
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:119
 msgid "Part of a Set"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:120
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:120
 msgid "Performer Sort Order"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:121
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:121
 msgid "Playlist Delay"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:122
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:122
 msgid "Produced Notice"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:123
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:123
 msgid "Publisher"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:124
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:124
 msgid "Recording Time"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:125
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:125
 msgid "Release Time"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:126
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:126
 msgid "Remixer"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:127
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:127
 msgid "Set Subtitle"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:128
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:128
 msgid "Subtitle"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:129
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:129
 msgid "Tagging Time"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:130
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:130
 msgid "Terms of Use"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:132
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:132
 msgid "Title Sort Order"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:133
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:133
 msgid "Track Number"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:134
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:134
 msgid "Unsynchronised Lyrics"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:135
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:135
 msgid "URL Artist"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:136
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:136
 msgid "URL File"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:137
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:137
 msgid "URL Payment"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:138
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:138
 msgid "URL Publisher"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:139
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:139
 msgid "URL Source"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:140
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:140
 msgid "URL Station"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:141
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:141
 msgid "URL User"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Media/Enums/MetadataTags.php:142
+#: /home/runner/work/BoostCast/BoostCast/src/Media/Enums/MetadataTags.php:142
 msgid "Year"
 msgstr "Anno"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:78
+#: /home/runner/work/BoostCast/BoostCast/src/Service/ServiceControl.php:78
 msgid "Runs routine synchronized tasks"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:79
+#: /home/runner/work/BoostCast/BoostCast/src/Service/ServiceControl.php:79
 msgid "Database"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:80
+#: /home/runner/work/BoostCast/BoostCast/src/Service/ServiceControl.php:80
 msgid "Web server"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:81
+#: /home/runner/work/BoostCast/BoostCast/src/Service/ServiceControl.php:81
 msgid "PHP FastCGI Process Manager"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:82
+#: /home/runner/work/BoostCast/BoostCast/src/Service/ServiceControl.php:82
 msgid "Now Playing manager service"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:83
+#: /home/runner/work/BoostCast/BoostCast/src/Service/ServiceControl.php:83
 msgid "PHP queue processing worker"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:84
+#: /home/runner/work/BoostCast/BoostCast/src/Service/ServiceControl.php:84
 msgid "Cache"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:85
+#: /home/runner/work/BoostCast/BoostCast/src/Service/ServiceControl.php:85
 msgid "SFTP service"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Service/ServiceControl.php:86
+#: /home/runner/work/BoostCast/BoostCast/src/Service/ServiceControl.php:86
 msgid "Live Now Playing updates"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Service/IpGeolocator/DbIp.php:29
+#: /home/runner/work/BoostCast/BoostCast/src/Service/IpGeolocator/DbIp.php:29
 msgid "IP Geolocation by DB-IP"
 msgstr "Geolocalizzazione IP tramite DB-IP"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Service/IpGeolocator/GeoLite.php:30
+#: /home/runner/work/BoostCast/BoostCast/src/Service/IpGeolocator/GeoLite.php:30
 #, php-format
 msgid "This product includes GeoLite2 data created by MaxMind, available from %s."
 msgstr "Questo prodotto include dati GeoLite2 creati da MaxMind, disponibili da %s."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Service/IpGeolocation.php:56
+#: /home/runner/work/BoostCast/BoostCast/src/Service/IpGeolocation.php:56
 msgid "GeoLite database not configured for this installation. See System Administration for instructions."
 msgstr "Database GeoLite non configurato per questa installazione. Consultare Amministrazione Sistema per le istruzioni."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Users/SetAdministratorCommand.php:58
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Users/SetAdministratorCommand.php:58
 #, php-format
 msgid "The account associated with e-mail address \"%s\" has been set as an administrator"
 msgstr "L'account associato all'indirizzo mail \"%s\" è stato impostato come amministratore"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Users/SetAdministratorCommand.php:66
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Users/SetAdministratorCommand.php:66
 msgid "Account not found."
 msgstr "Account non trovato."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Settings/ListCommand.php:30
-msgid "AzuraCast Settings"
-msgstr "Impostazioni AzuraCast"
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Settings/ListCommand.php:30
+msgid "BoostCast Settings"
+msgstr "Impostazioni BoostCast"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Settings/ListCommand.php:33
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Settings/ListCommand.php:33
 msgid "Setting Key"
 msgstr "Chiave dell'impostazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Settings/ListCommand.php:34
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Settings/ListCommand.php:34
 msgid "Setting Value"
 msgstr "Valore dell'impostazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:25
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:25
 msgid "Database Migrations"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:38
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:38
 msgid "Database is already up to date!"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:43
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:43
 msgid "Backing up initial database state..."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:52
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:52
 msgid "We detected a database restore file from a previous (possibly failed) migration."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:53
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:53
 msgid "Attempting to restore that now..."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:61
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:114
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:61
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:114
 #, php-format
 msgid "Restore failed: %s"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:73
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:73
 #, php-format
 msgid "Initial backup failed: %s"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:82
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:82
 msgid "Running database migrations..."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:96
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:96
 #, php-format
 msgid "Database migration failed: %s"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:101
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:101
 msgid "Attempting to roll back to previous database state..."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:107
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:107
 msgid "Your database was restored due to a failed migration."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:108
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:108
 msgid "Please report this bug to our developers."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateDbCommand.php:126
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateDbCommand.php:126
 msgid "Database migration completed!"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/SetupCommand.php:58
-msgid "AzuraCast Initializing..."
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/SetupCommand.php:58
+msgid "BoostCast Initializing..."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/SetupCommand.php:60
-msgid "AzuraCast Setup"
-msgstr "Configurazione AzuraCast"
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/SetupCommand.php:60
+msgid "BoostCast Setup"
+msgstr "Configurazione BoostCast"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/SetupCommand.php:62
-msgid "Welcome to AzuraCast. Please wait while some key dependencies of AzuraCast are set up..."
-msgstr "Benvenuto in AzuraCast. Attendi mentre vengono impostate alcune dipendenze chiave di AzuraCast..."
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/SetupCommand.php:62
+msgid "Welcome to BoostCast. Please wait while some key dependencies of BoostCast are set up..."
+msgstr "Benvenuto in BoostCast. Attendi mentre vengono impostate alcune dipendenze chiave di BoostCast..."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/SetupCommand.php:67
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/SetupCommand.php:67
 msgid "Running Database Migrations"
 msgstr "Migrazioni del database in esecuzione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/SetupCommand.php:75
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/SetupCommand.php:75
 msgid "Generating Database Proxy Classes"
 msgstr "Sto generando le classi proxy del database"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/SetupCommand.php:80
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/SetupCommand.php:80
 msgid "Reload System Data"
 msgstr "Ricarica dati di sistema"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/SetupCommand.php:90
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/SetupCommand.php:90
 msgid "Installing Data Fixtures"
 msgstr "Installazione di dispositivi di dati"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/SetupCommand.php:96
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/SetupCommand.php:96
 msgid "Refreshing All Stations"
 msgstr "Sto aggiornando tutte le stazioni"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/SetupCommand.php:123
-msgid "AzuraCast is now updated to the latest version!"
-msgstr "AzuraCast è ora aggiornato all'ultima versione!"
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/SetupCommand.php:123
+msgid "BoostCast is now updated to the latest version!"
+msgstr "BoostCast è ora aggiornato all'ultima versione!"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/SetupCommand.php:132
-msgid "AzuraCast installation complete!"
-msgstr "Installazione AzuraCast completata!"
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/SetupCommand.php:132
+msgid "BoostCast installation complete!"
+msgstr "Installazione BoostCast completata!"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/SetupCommand.php:134
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/SetupCommand.php:134
 #, php-format
 msgid "Visit %s to complete setup."
 msgstr "Visita %s per completare la configurazione."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Locale/ImportCommand.php:58
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Locale/ImportCommand.php:58
 #, php-format
 msgid "Imported locale: %s"
 msgstr "Traduzione importata: %s"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/MigrateConfigCommand.php:111
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/MigrateConfigCommand.php:111
 msgid "Configuration successfully written."
 msgstr "Configurazione scritta con successo."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Backup/BackupCommand.php:97
-msgid "AzuraCast Backup"
-msgstr "Backup AzuraCast"
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Backup/BackupCommand.php:97
+msgid "BoostCast Backup"
+msgstr "Backup BoostCast"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Backup/BackupCommand.php:98
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Backup/BackupCommand.php:98
 msgid "Please wait while a backup is generated..."
 msgstr "Aspetta mentre viene generato un backup..."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Backup/BackupCommand.php:101
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Backup/BackupCommand.php:101
 msgid "Creating temporary directories..."
 msgstr "Creazione directory temporanee in corso..."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Backup/BackupCommand.php:114
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Backup/BackupCommand.php:114
 msgid "Backing up MariaDB..."
 msgstr "Backup di MariaDB in corso..."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Backup/BackupCommand.php:141
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Backup/BackupCommand.php:141
 msgid "Creating backup archive..."
 msgstr "Creazione archivio backup in corso..."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Backup/BackupCommand.php:217
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Backup/BackupCommand.php:217
 msgid "Cleaning up temporary files..."
 msgstr "Pulizia file temporanei in corso..."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Backup/BackupCommand.php:229
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Backup/BackupCommand.php:229
 #, php-format
 msgid "Backup complete in %.2f seconds."
 msgstr "Backup completato in %.2f secondi."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/Backup/RestoreCommand.php:75
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/Backup/RestoreCommand.php:75
 #, php-format
 msgid "Backup path %s not found!"
 msgstr "Il percorso %s per i backup non è stato trovato!"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Console/Command/SetupFixturesCommand.php:63
+#: /home/runner/work/BoostCast/BoostCast/src/Console/Command/SetupFixturesCommand.php:63
 msgid "Fixtures loaded."
 msgstr "Calendari caricati."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/LogsAction.php:24
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:127
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/LogsAction.php:24
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:127
 msgid "Help"
 msgstr "Aiuto"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Stations/BulkMediaAction.php:24
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:120
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Stations/BulkMediaAction.php:24
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:120
 msgid "Bulk Media Import/Export"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/Debug/NextSongAction.php:45
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/Debug/TelnetAction.php:56
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/Debug/NowPlayingAction.php:43
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/Debug/ClearStationQueueAction.php:48
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/Debug/SyncAction.php:57
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/Debug/NextSongAction.php:45
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/Debug/TelnetAction.php:56
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/Debug/NowPlayingAction.php:43
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/Debug/ClearStationQueueAction.php:48
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/Debug/SyncAction.php:57
 msgid "Debug Output"
 msgstr "Debug Output"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Admin/Debug/ClearQueueAction.php:34
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Admin/Debug/ClearQueueAction.php:34
 msgid "Message queue cleared."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Playlists/PutOrderAction.php:36
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Playlists/GetOrderAction.php:37
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Playlists/PutOrderAction.php:36
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Playlists/GetOrderAction.php:37
 msgid "This playlist is not a sequential playlist."
 msgstr "Questa playlist non è una playlist sequenziale."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Playlists/ImportAction.php:196
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Playlists/ImportAction.php:196
 #, php-format
 msgid "Playlist successfully imported; %d of %d files were successfully matched."
 msgstr "Playlist importata con successo; %d di %d file sono stati abbinati con successo."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Playlists/ToggleAction.php:36
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Playlists/ToggleAction.php:36
 msgid "Playlist enabled."
 msgstr "Playlist abilitata."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Playlists/ToggleAction.php:37
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Playlists/ToggleAction.php:37
 msgid "Playlist disabled."
 msgstr "Playlist disabilitata."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Playlists/ReshuffleAction.php:35
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Playlists/ReshuffleAction.php:35
 msgid "Playlist reshuffled."
 msgstr "Playlist rimescolata."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Playlists/DeleteQueueAction.php:35
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Playlists/DeleteQueueAction.php:35
 msgid "Playlist queue cleared."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Files/ListAction.php:245
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Files/ListAction.php:245
 msgid "Directory"
 msgstr "Cartella"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Files/ListAction.php:252
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Files/ListAction.php:252
 #, php-format
 msgid "File Not Processed: %s"
 msgstr "File non elaborato: %s"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Files/ListAction.php:257
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Files/ListAction.php:257
 msgid "Cover Art"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Files/ListAction.php:259
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Files/ListAction.php:259
 msgid "File Processing"
 msgstr "Elaborazione File"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Files/RenameAction.php:30
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Files/RenameAction.php:30
 msgid "File not specified."
 msgstr "File non specificato."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Files/RenameAction.php:36
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Files/RenameAction.php:36
 msgid "New path not specified."
 msgstr "Nuovo percorso non specificato."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Files/MakeDirectoryAction.php:31
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Files/MakeDirectoryAction.php:31
 msgid "No directory specified"
 msgstr "Nessuna directory specificata"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Streamers/BroadcastsController.php:151
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Streamers/BroadcastsController.php:151
 msgid "No recording available."
 msgstr "Nessuna registrazione disponibile."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByStream.php:101
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:82
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByCountry.php:75
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByBrowser.php:62
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByStream.php:101
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:82
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByCountry.php:75
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByBrowser.php:62
 msgid "Connected Seconds"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:47
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:47
 msgid "Less than Thirty Seconds"
 msgstr "Meno di trenta secondi"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:48
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:48
 msgid "Thirty Seconds to One Minute"
 msgstr "Da trenta secondi a un minuto"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:49
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:49
 msgid "One Minute to Five Minutes"
 msgstr "Da un minuto a cinque minuti"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:50
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:50
 msgid "Five Minutes to Ten Minutes"
 msgstr "Cinque minuti a dieci minuti"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:51
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:51
 msgid "Ten Minutes to Thirty Minutes"
 msgstr "Dieci minuti a trenta minuti"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:52
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:52
 msgid "Thirty Minutes to One Hour"
 msgstr "Trenta minuti a un'ora"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:53
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:53
 msgid "One Hour to Two Hours"
 msgstr "Da un'ora a due ore"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:54
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByListeningTime.php:54
 msgid "More than Two Hours"
 msgstr "Più di due ore"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:61
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:61
 msgid "Bot/Crawler"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:63
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:63
 msgid "Desktop Browser"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:64
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ByClient.php:64
 msgid "Non-Browser"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:106
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:106
 msgid "Monday"
 msgstr "Lunedì"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:107
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:107
 msgid "Tuesday"
 msgstr "Martedì"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:108
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:108
 msgid "Wednesday"
 msgstr "Mercoledì"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:109
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:109
 msgid "Thursday"
 msgstr "Giovedì"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:110
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:110
 msgid "Friday"
 msgstr "Venerdì"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:111
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:111
 msgid "Saturday"
 msgstr "Sabato"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:112
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Reports/Overview/ChartsAction.php:112
 msgid "Sunday"
 msgstr "Domenica"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/FilesController.php:196
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/FilesController.php:196
 msgid "This station is out of available storage space."
 msgstr "Questa stazione ha esaurito lo spazio disponibile."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Webhooks/ToggleAction.php:36
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Webhooks/ToggleAction.php:36
 msgid "Web hook enabled."
 msgstr "Interazione web abilitata."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Webhooks/ToggleAction.php:37
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Webhooks/ToggleAction.php:37
 msgid "Web hook disabled."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Podcasts/Art/DeleteArtAction.php:60
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Podcasts/Art/DeleteArtAction.php:60
 msgid "Podcast not found!"
 msgstr "Podcast non trovato!"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/LogsAction.php:83
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/LogsAction.php:83
 msgid "Station Nginx Configuration"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/LogsAction.php:90
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/LogsAction.php:90
 msgid "Liquidsoap Log"
 msgstr "Log Liquidsoap"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/LogsAction.php:95
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/LogsAction.php:95
 msgid "Liquidsoap Configuration"
 msgstr "Configurazione Liquidsoap"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/LogsAction.php:104
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/LogsAction.php:104
 msgid "Icecast Access Log"
 msgstr "Log accesso Icecast"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/LogsAction.php:109
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/LogsAction.php:109
 msgid "Icecast Error Log"
 msgstr "Log errori Icecast"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/LogsAction.php:114
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/LogsAction.php:114
 msgid "Icecast Configuration"
 msgstr "Configurazione Icecast"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/LogsAction.php:122
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/LogsAction.php:122
 msgid "Shoutcast Log"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/LogsAction.php:127
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/LogsAction.php:127
 msgid "Shoutcast Configuration"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/Requests/ListAction.php:69
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/Requests/ListAction.php:69
 msgid "This station does not support requests."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/OnDemand/DownloadAction.php:32
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/OnDemand/ListAction.php:28
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/OnDemand/DownloadAction.php:32
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/OnDemand/ListAction.php:28
 msgid "This station does not support on-demand streaming."
 msgstr "Questa stazione non supporta lo streaming on-demand."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:165
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/ServicesController.php:165
 msgid "Station reloaded."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:197
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/ServicesController.php:197
 msgid "Station restarted."
 msgstr "Stazione riavviata."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:217
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:271
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/ServicesController.php:217
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/ServicesController.php:271
 msgid "Service stopped."
 msgstr "Servizio interrotto."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:222
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:276
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/ServicesController.php:222
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/ServicesController.php:276
 msgid "Service started."
 msgstr "Servizio avviato."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:228
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:282
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/ServicesController.php:228
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/ServicesController.php:282
 msgid "Service reloaded."
 msgstr "Servizio ricaricato."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:240
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:294
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/ServicesController.php:240
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/ServicesController.php:294
 msgid "Service restarted."
 msgstr "Servizio riavviato."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:261
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/ServicesController.php:261
 msgid "Song skipped."
 msgstr "Brano saltato."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/ServicesController.php:266
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/ServicesController.php:266
 msgid "Streamer disconnected."
 msgstr "Curatore disconnesso."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Stations/BulkMedia/UploadAction.php:162
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Stations/BulkMedia/UploadAction.php:162
 #, php-format
 msgid "%d files processed."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/Stations/StorageLocationsAction.php:19
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/Stations/StorageLocationsAction.php:19
 msgid "Create a new storage location based on the base directory."
 msgstr "Crea una nuova posizione di archiviazione in base alla directory di base."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/UsersController.php:213
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/UsersController.php:213
 msgid "You cannot modify yourself."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/UsersController.php:236
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/UsersController.php:236
 msgid "You cannot remove yourself."
 msgstr "Non puoi rimuovere te stesso."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/Backups/AbstractFileAction.php:36
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/Backups/AbstractFileAction.php:36
 msgid "Backup not found."
 msgstr "Backup non trovato."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/LogsAction.php:77
-msgid "AzuraCast Application Log"
-msgstr "Log dell'applicazione AzuraCast"
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/LogsAction.php:77
+msgid "BoostCast Application Log"
+msgstr "Log dell'applicazione BoostCast"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/LogsAction.php:83
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/LogsAction.php:83
 #, php-format
 msgid "Service Log: %s (%s)"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/LogsAction.php:98
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/LogsAction.php:98
 msgid "Nginx Access Log"
 msgstr "Log accesso Nginx"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/LogsAction.php:103
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/LogsAction.php:103
 msgid "Nginx Error Log"
 msgstr "Log errori Nginx"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/LogsAction.php:108
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/LogsAction.php:108
 msgid "PHP Application Log"
 msgstr "Log applicazione PHP"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/LogsAction.php:113
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/LogsAction.php:113
 msgid "Supervisord Log"
 msgstr "Log Supervisord"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/StereoTool/PostAction.php:37
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/StereoTool/PostAction.php:37
 msgid "Invalid binary uploaded."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/SendTestMessageAction.php:47
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/SendTestMessageAction.php:47
 msgid "Test Message"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/SendTestMessageAction.php:50
-msgid "This is a test message from AzuraCast. If you are receiving this message, it means your e-mail settings are configured correctly."
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/SendTestMessageAction.php:50
+msgid "This is a test message from BoostCast. If you are receiving this message, it means your e-mail settings are configured correctly."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Admin/SendTestMessageAction.php:64
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Admin/SendTestMessageAction.php:64
 msgid "Test message sent successfully."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Api/Frontend/Dashboard/ChartsAction.php:130
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Api/Frontend/Dashboard/ChartsAction.php:130
 msgid "All Stations"
 msgstr "Tutte le stazioni"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/PublicPages/PodcastEpisodesAction.php:67
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/PublicPages/PodcastEpisodesAction.php:67
 msgid "No episodes found."
 msgstr "Nessun episodio trovato."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/PublicPages/PodcastEpisodeAction.php:55
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/PublicPages/PodcastEpisodeAction.php:55
 msgid "Episode not found."
 msgstr "Episodio non trovato."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/PublicPages/RequestsAction.php:40
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/PublicPages/RequestsAction.php:40
 msgid "Requests"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/PublicPages/HistoryAction.php:44
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/PublicPages/HistoryAction.php:44
 msgid "History"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/SetupController.php:110
-msgid "Set Up AzuraCast"
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/SetupController.php:110
+msgid "Set Up BoostCast"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/SetupController.php:190
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/SetupController.php:190
 msgid "Setup has already been completed!"
 msgstr "Installazione già completata!"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/DashboardAction.php:36
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:97
-#: /home/runner/work/AzuraCast/AzuraCast/templates/system/error_http.phtml:19
-#: /home/runner/work/AzuraCast/AzuraCast/templates/system/error_general.phtml:27
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/DashboardAction.php:36
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:97
+#: /home/runner/work/BoostCast/BoostCast/templates/system/error_http.phtml:19
+#: /home/runner/work/BoostCast/BoostCast/templates/system/error_general.phtml:27
 msgid "Dashboard"
 msgstr "Bacheca"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/ForgotPasswordAction.php:43
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/ForgotPasswordAction.php:43
 msgid "Too many forgot password attempts"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/ForgotPasswordAction.php:44
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/ForgotPasswordAction.php:44
 msgid "You have attempted to reset your password too many times. Please wait 30 seconds and try again."
 msgstr "Hai tentato di reimpostare la password troppe volte. Si prega di attendere 30 secondi e riprovare."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/ForgotPasswordAction.php:61
-#: /home/runner/work/AzuraCast/AzuraCast/templates/mail/forgot.phtml:8
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/ForgotPasswordAction.php:61
+#: /home/runner/work/BoostCast/BoostCast/templates/mail/forgot.phtml:8
 msgid "Account Recovery"
 msgstr "Recupero Account"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/ForgotPasswordAction.php:79
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/ForgotPasswordAction.php:79
 msgid "Account recovery e-mail sent."
 msgstr "Email di recupero account inviata."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/ForgotPasswordAction.php:80
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/ForgotPasswordAction.php:80
 msgid "If the e-mail address you provided is in the system, check your inbox for a password reset message."
 msgstr "Se l'indirizzo e-mail fornito è nel sistema, controlla la posta in arrivo per visualizzare il messaggio di reimpostazione della password."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/LoginAction.php:60
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/LoginAction.php:60
 msgid "Too many login attempts"
 msgstr "Troppi tentativi di accesso"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/LoginAction.php:61
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/LoginAction.php:61
 msgid "You have attempted to log in too many times. Please wait 30 seconds and try again."
 msgstr "Hai tentato di accedere troppe volte. Attendi 30 secondi e riprova."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/LoginAction.php:97
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/LoginAction.php:105
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/MasqueradeAction.php:40
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/TwoFactorAction.php:29
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/LoginAction.php:97
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/LoginAction.php:105
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/MasqueradeAction.php:40
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/TwoFactorAction.php:29
 msgid "Logged in successfully."
 msgstr "Accesso riuscito."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/LoginAction.php:98
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/LoginAction.php:98
 msgid "Complete the setup process to get started."
 msgstr "Completa il processo di configurazione per iniziare."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/LoginAction.php:115
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/TwoFactorAction.php:41
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/LoginAction.php:115
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/TwoFactorAction.php:41
 msgid "Login unsuccessful"
 msgstr "Accesso non riuscito"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/LoginAction.php:115
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/TwoFactorAction.php:41
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/LoginAction.php:115
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/TwoFactorAction.php:41
 msgid "Your credentials could not be verified."
 msgstr "Impossibile verificare le tue credenziali."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/RecoverAction.php:35
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/RecoverAction.php:35
 msgid "Invalid token specified."
 msgstr "Token specificato non valido."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/RecoverAction.php:68
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/RecoverAction.php:68
 msgid "Logged in using account recovery token"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/RecoverAction.php:69
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/RecoverAction.php:69
 msgid "Your password has been updated."
 msgstr "La tua password è stata aggiornata."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Controller/Frontend/Account/MasqueradeAction.php:33
+#: /home/runner/work/BoostCast/BoostCast/src/Controller/Frontend/Account/MasqueradeAction.php:33
 msgid "User not found."
 msgstr "Utente non trovato."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/StationPermissions.php:26
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/GlobalPermissions.php:22
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/StationPermissions.php:26
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/GlobalPermissions.php:22
 msgid "All Permissions"
 msgstr "Tutti i permessi"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/StationPermissions.php:27
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/StationPermissions.php:27
 msgid "View Station Page"
 msgstr "Vedi pagina della stazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/StationPermissions.php:28
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/StationPermissions.php:28
 msgid "View Station Reports"
 msgstr "Vedi i report della stazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/StationPermissions.php:29
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/StationPermissions.php:29
 msgid "View Station Logs"
 msgstr "Vedi i log della stazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/StationPermissions.php:30
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/StationPermissions.php:30
 msgid "Manage Station Profile"
 msgstr "Gestisci profilo stazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/StationPermissions.php:31
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/StationPermissions.php:31
 msgid "Manage Station Broadcasting"
 msgstr "Gestisci trasmissione stazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/StationPermissions.php:32
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/StationPermissions.php:32
 msgid "Manage Station Streamers"
 msgstr "Gestisci streamer stazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/StationPermissions.php:33
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/StationPermissions.php:33
 msgid "Manage Station Mount Points"
 msgstr "Gestisci mount point stazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/StationPermissions.php:34
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/StationPermissions.php:34
 msgid "Manage Station Remote Relays"
 msgstr "Gestisci flussi remoti della stazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/StationPermissions.php:35
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/StationPermissions.php:35
 msgid "Manage Station Media"
 msgstr "Gestisci media stazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/StationPermissions.php:36
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/StationPermissions.php:36
 msgid "Manage Station Automation"
 msgstr "Gestisci automazione stazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/StationPermissions.php:37
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/StationPermissions.php:37
 msgid "Manage Station Web Hooks"
 msgstr "Gestisci interazioni web stazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/StationPermissions.php:38
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/StationPermissions.php:38
 msgid "Manage Station Podcasts"
 msgstr "Gestione stazione Podcast"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/GlobalPermissions.php:23
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/GlobalPermissions.php:23
 msgid "View Administration Page"
 msgstr "Vedi la pagina di amministrazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/GlobalPermissions.php:24
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/GlobalPermissions.php:24
 msgid "View System Logs"
 msgstr "Vedi i log di sistema"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/GlobalPermissions.php:25
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/GlobalPermissions.php:25
 msgid "Administer Settings"
 msgstr "Gestisci impostazioni"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/GlobalPermissions.php:26
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/GlobalPermissions.php:26
 msgid "Administer API Keys"
 msgstr "Gestisci API Key"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/GlobalPermissions.php:27
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/GlobalPermissions.php:27
 msgid "Administer Stations"
 msgstr "Gestisci stazioni"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/GlobalPermissions.php:28
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/GlobalPermissions.php:28
 msgid "Administer Custom Fields"
 msgstr "Gestisci campi personalizzati"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/GlobalPermissions.php:29
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/GlobalPermissions.php:29
 msgid "Administer Backups"
 msgstr "Gestisci backup"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Enums/GlobalPermissions.php:30
+#: /home/runner/work/BoostCast/BoostCast/src/Enums/GlobalPermissions.php:30
 msgid "Administer Storage Locations"
 msgstr "Amministrare Cartelle Di Archiviazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Exception/SupervisorException.php:24
+#: /home/runner/work/BoostCast/BoostCast/src/Exception/SupervisorException.php:24
 #, php-format
 msgid "%s is not recognized as a service."
 msgstr "%s non è riconosciuto come un servizio."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Exception/SupervisorException.php:27
+#: /home/runner/work/BoostCast/BoostCast/src/Exception/SupervisorException.php:27
 msgid "It may not be registered with Supervisor yet. Restarting broadcasting may help."
 msgstr "Potrebbe non essere ancora registrato con Supervisor. Riavviare la trasmissione potrebbe aiutare."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Exception/SupervisorException.php:36
+#: /home/runner/work/BoostCast/BoostCast/src/Exception/SupervisorException.php:36
 #, php-format
 msgid "%s cannot start"
 msgstr "%s non può partire"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Exception/SupervisorException.php:39
+#: /home/runner/work/BoostCast/BoostCast/src/Exception/SupervisorException.php:39
 msgid "It is already running."
 msgstr "E' già in esecuzione."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Exception/SupervisorException.php:48
+#: /home/runner/work/BoostCast/BoostCast/src/Exception/SupervisorException.php:48
 #, php-format
 msgid "%s cannot stop"
 msgstr "%s non può spegnersi"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Exception/SupervisorException.php:51
+#: /home/runner/work/BoostCast/BoostCast/src/Exception/SupervisorException.php:51
 msgid "It is not running."
 msgstr "Non è in esecuzione."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Exception/SupervisorException.php:63
+#: /home/runner/work/BoostCast/BoostCast/src/Exception/SupervisorException.php:63
 #, php-format
 msgid "%s encountered an error: %s"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Exception/SupervisorException.php:67
+#: /home/runner/work/BoostCast/BoostCast/src/Exception/SupervisorException.php:67
 msgid "Check the log for details."
 msgstr "Controlla i log per i dettagli."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Middleware/Module/StationFiles.php:20
+#: /home/runner/work/BoostCast/BoostCast/src/Middleware/Module/StationFiles.php:20
 msgid "This feature is not currently supported on this station."
 msgstr "Attualmente questa funzione non è supportata in questa stazione radio."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/ApiGenerator/ScheduleApiGenerator.php:56
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/ApiGenerator/ScheduleApiGenerator.php:56
 #, php-format
 msgid "Playlist: %s"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/ApiGenerator/ScheduleApiGenerator.php:61
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/ApiGenerator/ScheduleApiGenerator.php:61
 #, php-format
 msgid "Streamer: %s"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Api/Status.php:33
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Api/Status.php:33
 msgid "Changes saved successfully."
 msgstr "Modifiche salvate correttamente."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Api/Status.php:38
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Api/Status.php:38
 msgid "Record created successfully."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Api/Status.php:43
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Api/Status.php:43
 msgid "Record updated successfully."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Api/Status.php:48
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Api/Status.php:48
 msgid "Record deleted successfully."
 msgstr "Record eliminato correttamente."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Api/Error.php:71
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Api/Error.php:71
 msgid "Record not found"
 msgstr "Record non trovato"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Api/Error.php:77
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Api/Error.php:77
 msgid "The uploaded file exceeds the upload_max_filesize directive in php.ini."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Api/Error.php:78
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Api/Error.php:78
 msgid "The uploaded file exceeds the MAX_FILE_SIZE directive from the HTML form."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Api/Error.php:79
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Api/Error.php:79
 msgid "The uploaded file was only partially uploaded."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Api/Error.php:80
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Api/Error.php:80
 msgid "No file was uploaded."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Api/Error.php:81
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Api/Error.php:81
 msgid "No temporary directory is available."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Api/Error.php:82
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Api/Error.php:82
 msgid "Could not write to filesystem."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Api/Error.php:83
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Api/Error.php:83
 msgid "Upload halted by a PHP extension."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Api/Error.php:84
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Api/Error.php:84
 msgid "Unspecified error."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Repository/StorageLocationRepository.php:77
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Repository/StorageLocationRepository.php:77
 msgid "None"
 msgstr "Nessuna"
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Repository/StationRequestRepository.php:63
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Repository/StationRequestRepository.php:63
 msgid "This station does not accept requests currently."
 msgstr "Attualmente questa stazione non accetta richieste."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Repository/StationRequestRepository.php:70
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Repository/StationRequestRepository.php:70
 msgid "Search engine crawlers are not permitted to use this feature."
 msgstr "I crawler dei motori di ricerca non sono autorizzati a usare questa funzione."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Repository/StationRequestRepository.php:75
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Repository/StationRequestRepository.php:75
 msgid "You are not permitted to submit requests."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Repository/StationRequestRepository.php:82
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Repository/StationRequestRepository.php:82
 msgid "The song ID you specified cannot be requested for this station."
 msgstr "L'ID del brano specificato non può essere richiesto in questa stazione."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Repository/StationRequestRepository.php:113
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Repository/StationRequestRepository.php:113
 msgid "You have submitted a request too recently! Please wait before submitting another one."
 msgstr "Hai mandato una richiesta troppo presto! Aspetta prima di poterne inviare un'altra."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Repository/StationRequestRepository.php:158
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Repository/StationRequestRepository.php:158
 msgid "Duplicate request: this song was already requested and will play soon."
 msgstr "Richiesta duplicata: questo brano è già stato richiesto e verrà presto riprodotto."
 
-#: /home/runner/work/AzuraCast/AzuraCast/src/Entity/Repository/StationRequestRepository.php:237
+#: /home/runner/work/BoostCast/BoostCast/src/Entity/Repository/StationRequestRepository.php:237
 msgid "This song or artist has been played too recently. Wait a while before requesting it again."
 msgstr "Questa canzone o artista è stata già riprodotta di recente. Attendi prima di poterlo richiedere un'altra volta."
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:20
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:20
 msgid "Restart broadcasting? This will disconnect any current listeners."
 msgstr "Riavviare la trasmissione? Questo disconnetterà tutti gli ascoltatori correnti."
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:21
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:21
 msgid "Reload broadcasting? Current listeners will not be disconnected."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:33
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:33
 msgid "Start Station"
 msgstr "Avvia radio"
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:34
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:34
 msgid "Ready to start broadcasting? Click to start your station."
 msgstr "Pronto per iniziare a trasmettere? Clicca per avviare la tua radio."
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:43
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:43
 msgid "Reload to Apply Changes"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:44
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:44
 msgid "Click to restart your station and apply configuration changes."
 msgstr "Fare clic per riavviare la radio e applicare le modifiche alla configurazione."
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:58
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:58
 msgid "View Profile"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:67
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:67
 msgid "Branding"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:92
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:92
 msgid "Duplicate Songs"
 msgstr "Duplica brani"
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:97
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:97
 msgid "Unprocessable Files"
 msgstr "File non elaborabili"
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:102
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:102
 msgid "Unassigned Files"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:144
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:144
 msgid "Live Streaming"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:181
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:181
 msgid "Reports"
 msgstr "Report"
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:203
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:203
 msgid "SoundExchange Royalties"
 msgstr "Royalty di SoundExchange"
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:260
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:260
 msgid "Reload Configuration"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/station.php:268
+#: /home/runner/work/BoostCast/BoostCast/config/menus/station.php:268
 msgid "Restart Broadcasting"
 msgstr "Riavvia trasmissione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:16
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:16
 msgid "System Maintenance"
 msgstr "Manutenzione del sistema"
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:61
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:61
 msgid "User Accounts"
 msgstr "Account utenti"
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:97
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/relays/index.phtml:8
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/relays/index.phtml:30
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:97
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/relays/index.phtml:8
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/relays/index.phtml:30
 msgid "Connected AzuraRelays"
 msgstr "AzuraRelays Collegato"
 
-#: /home/runner/work/AzuraCast/AzuraCast/config/menus/admin.php:102
+#: /home/runner/work/BoostCast/BoostCast/config/menus/admin.php:102
 msgid "Install Shoutcast"
 msgstr "Installa Shoutcast"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/mail/forgot.phtml:10
+#: /home/runner/work/BoostCast/BoostCast/templates/mail/forgot.phtml:10
 #, php-format
 msgid "An account recovery link has been requested for your account on \"%s\"."
 msgstr "È stato richiesto un link per il recupero dell'account per il tuo account su \"%s\"."
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/mail/forgot.phtml:12
+#: /home/runner/work/BoostCast/BoostCast/templates/mail/forgot.phtml:12
 msgid "Click the link below to log in to your account."
 msgstr "Clicca sul link qui sotto per accedere al tuo account."
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/stations/sidebar.phtml:25
+#: /home/runner/work/BoostCast/BoostCast/templates/stations/sidebar.phtml:25
 msgid "Please wait..."
 msgstr "Attendere prego..."
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/stations/sidebar.phtml:84
+#: /home/runner/work/BoostCast/BoostCast/templates/stations/sidebar.phtml:84
 msgid "Station Time"
 msgstr "Orario stazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/stations/profile_disabled.phtml:9
+#: /home/runner/work/BoostCast/BoostCast/templates/stations/profile_disabled.phtml:9
 msgid "Station Broadcasting Disabled"
 msgstr "Trasmissione radio disattivata"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/stations/profile_disabled.phtml:15
+#: /home/runner/work/BoostCast/BoostCast/templates/stations/profile_disabled.phtml:15
 #, php-format
 msgid "Your station is currently not enabled for broadcasting. You can still manage media, playlists, and other station settings. To re-enable broadcasting, <a href=\"%s\">edit your station profile</a>."
 msgstr "La tua stazione non è attualmente abilitata per la trasmissione. È comunque possibile gestire i file multimediali, le playlist e altre impostazioni della stazione. Per riattivare la trasmissione, <a href=\"%s\"> modifica il profilo della tua stazione </a>."
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/stations/reports_restricted.phtml:1
-#: /home/runner/work/AzuraCast/AzuraCast/templates/stations/reports_restricted.phtml:5
+#: /home/runner/work/BoostCast/BoostCast/templates/stations/reports_restricted.phtml:1
+#: /home/runner/work/BoostCast/BoostCast/templates/stations/reports_restricted.phtml:5
 msgid "Report Not Available"
 msgstr "Report non disponibile"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/stations/reports_restricted.phtml:8
+#: /home/runner/work/BoostCast/BoostCast/templates/stations/reports_restricted.phtml:8
 msgid "This report is not available for this station, because the system administrator has chosen not to collect detailed IP-based listener information."
 msgstr "Questo report non è disponibile per questa stazione, perché l'amministratore di sistema ha scelto di non raccogliere informazioni dettagliate sugli ascoltatori basate su IP."
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:60
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:60
 msgid "Skip to main content"
 msgstr "Vai al contenuto"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:65
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:65
 msgid "Toggle Sidebar"
 msgstr "Barra laterale"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:88
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:88
 msgid "Toggle Menu"
 msgstr "Menu"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:106
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:106
 msgid "System Administration"
 msgstr "Amministrazione sistema"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:120
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:120
 msgid "Switch Theme"
 msgstr "Cambia tema"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:136
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:136
 msgid "End Session"
 msgstr "Termina sessione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:144
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:144
 msgid "Sign Out"
 msgstr "Esci"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:154
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:154
 msgid "Sidebar"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:194
-#: /home/runner/work/AzuraCast/AzuraCast/templates/minimal.phtml:58
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:194
+#: /home/runner/work/BoostCast/BoostCast/templates/minimal.phtml:58
 msgid "Footer"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:196
-#: /home/runner/work/AzuraCast/AzuraCast/templates/minimal.phtml:60
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:196
+#: /home/runner/work/BoostCast/BoostCast/templates/minimal.phtml:60
 #, php-format
 msgid "Powered by %s"
 msgstr "Patrocinato da %s"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:202
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:202
 msgid "Like our software?"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/main.phtml:202
-msgid "Donate to support AzuraCast!"
-msgstr "Dona per supportare AzuraCast!"
+#: /home/runner/work/BoostCast/BoostCast/templates/main.phtml:202
+msgid "Donate to support BoostCast!"
+msgstr "Dona per supportare BoostCast!"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/system/log_view.phtml:33
+#: /home/runner/work/BoostCast/BoostCast/templates/system/log_view.phtml:33
 msgid "Details"
 msgstr "Dettagli"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/partials/sidebar_menu.phtml:49
+#: /home/runner/work/BoostCast/BoostCast/templates/partials/sidebar_menu.phtml:49
 msgid "External"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/partials/bodyjs.phtml:39
+#: /home/runner/work/BoostCast/BoostCast/templates/partials/bodyjs.phtml:39
 msgid "Are you sure?"
 msgstr "Sei sicuro?"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:25
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:25
 msgid "Welcome!"
 msgstr "Benvenuto!"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:28
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:28
 #, php-format
 msgid "Welcome to %s!"
 msgstr "Benvenuto in %s!"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:48
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/forgot.phtml:23
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:48
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/forgot.phtml:23
 msgid "name@example.com"
 msgstr "nome@esempio.com"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:57
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:57
 msgid "Enter your password"
 msgstr "Inserisci la tua password"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:65
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:65
 msgid "Remember me"
 msgstr "Ricordami"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:69
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:72
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/forgot.phtml:27
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/two_factor.phtml:22
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/two_factor.phtml:23
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:69
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:72
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/forgot.phtml:27
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/two_factor.phtml:22
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/two_factor.phtml:23
 msgid "Sign in"
 msgstr "Accedi"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:76
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:76
 msgid "Please log in to continue."
 msgstr "Per favore accedi per continuare."
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/login.phtml:79
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/login.phtml:79
 msgid "Forgot your password?"
 msgstr "Hai dimenticato la password?"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/forgot_disabled.phtml:6
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/forgot_disabled.phtml:17
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/forgot.phtml:6
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/forgot.phtml:15
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/forgot_disabled.phtml:6
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/forgot_disabled.phtml:17
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/forgot.phtml:6
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/forgot.phtml:15
 msgid "Forgot Password"
 msgstr "Password Dimenticata"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/forgot_disabled.phtml:22
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/forgot_disabled.phtml:22
 msgid "This installation's administrator has not configured this functionality."
 msgstr "L'amministratore di questa installazione non ha configurato questa funzionalità."
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/forgot_disabled.phtml:25
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/forgot_disabled.phtml:25
 msgid "Contact an administrator to reset your password following the instructions in our documentation:"
 msgstr "Contatta un amministratore per reimpostare la tua password seguendo le istruzioni riportate nella nostra documentazione:"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/forgot_disabled.phtml:31
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/forgot_disabled.phtml:31
 msgid "Password Reset Instructions"
 msgstr "Istruzioni per la reimpostazione della password"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/forgot.phtml:30
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/forgot.phtml:30
 msgid "Send Recovery E-mail"
 msgstr "Invia E-mail Di Recupero"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/two_factor.phtml:11
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/two_factor.phtml:11
 msgid "Enter Two-Factor Code"
 msgstr "Inserisci il codice a due fattori"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/two_factor.phtml:12
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/two_factor.phtml:12
 msgid "Your account uses a two-factor security code. Enter the code your device is currently showing below."
 msgstr "Il tuo account utilizza un codice di sicurezza a due fattori. Inserisci il codice che il tuo dispositivo sta mostrando qui sotto."
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/two_factor.phtml:18
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/account/two_factor.phtml:20
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/two_factor.phtml:18
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/account/two_factor.phtml:20
 msgid "Security Code"
 msgstr "Codice di sicurezza"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcasts.phtml:101
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcasts.phtml:101
 msgid "No entries found."
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcast-episodes.phtml:77
-#: /home/runner/work/AzuraCast/AzuraCast/templates/frontend/public/podcast-episodes.phtml:111
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcast-episodes.phtml:77
+#: /home/runner/work/BoostCast/BoostCast/templates/frontend/public/podcast-episodes.phtml:111
 msgid "View Details"
 msgstr "Mostra dettagli"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:36
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:43
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:36
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:43
 msgid "Clear Cache"
 msgstr "Cancella Cache"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:39
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:39
 msgid "Clearing the application cache may log you out of your session."
 msgstr "La cancellazione della cache dell'applicazione potrebbe disconnettersi dalla sessione."
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:52
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:59
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:52
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:59
 msgid "Clear All Message Queues"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:55
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:55
 msgid "This will clear any pending unprocessed messages in all message queues."
 msgstr "Questo cancellerà tutti i messaggi non elaborati in attesa in tutte le code dei messaggi."
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:69
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:69
 msgid "Synchronization Tasks"
 msgstr "Compiti di sincronizzazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:80
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:80
 msgid "Task Name"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:81
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:81
 msgid "Last Run"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:82
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:82
 msgid "Next Run"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:96
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:96
 msgid "Not Run"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:114
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:195
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:114
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:195
 msgid "Run Task"
 msgstr "Esegui compito"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:126
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:126
 msgid "Message Queues"
 msgstr "Coda Dei Messaggi"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:134
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:134
 #, php-format
 msgid "%d queued messages"
 msgstr "%d messaggi in coda"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:152
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:152
 msgid "Station-Specific Debugging"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:170
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:170
 msgid "AutoDJ Queue"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:183
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:183
 msgid "Get Next Song"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:188
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:188
 msgid "Get Now Playing"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:202
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:202
 msgid "Send Liquidsoap Telnet Command"
 msgstr "Invia Comando Telnet Liquidsoap"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:209
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:209
 msgid "Command"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/index.phtml:214
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/index.phtml:214
 msgid "Execute Command"
 msgstr "Esegui Comando"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/sync.phtml:7
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/sync.phtml:14
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/sync.phtml:7
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/sync.phtml:14
 msgid "Run Synchronization Task"
 msgstr "Esegui Attività Di Sincronizzazione"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/sync.phtml:19
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/sync.phtml:19
 msgid "Debug Home"
 msgstr ""
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/debug/sync.phtml:24
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/debug/sync.phtml:24
 msgid "The synchronization task is running in the background. The log below will update automatically."
 msgstr "L'attività di sincronizzazione è in esecuzione in background. Il log qui sotto si aggiornerà automaticamente."
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/relays/index.phtml:36
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/relays/index.phtml:36
 msgid "Is Public"
 msgstr "È pubblico"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/relays/index.phtml:37
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/relays/index.phtml:37
 msgid "First Connected"
 msgstr "Primo connesso"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/relays/index.phtml:38
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/relays/index.phtml:38
 msgid "Latest Update"
 msgstr "Ultimi aggiornamenti"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/relays/index.phtml:51
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/relays/index.phtml:51
 msgid "Yes"
 msgstr "Sì"
 
-#: /home/runner/work/AzuraCast/AzuraCast/templates/admin/relays/index.phtml:51
+#: /home/runner/work/BoostCast/BoostCast/templates/admin/relays/index.phtml:51
 msgid "No"
 msgstr "No"
 
