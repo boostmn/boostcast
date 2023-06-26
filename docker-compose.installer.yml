@@ -1,7 +1,7 @@
 services:
   installer:
     container_name: azuracast_installer
-    image: 'giva9712/boostcast:v1'
+    image: 'giva9712/boostcast:v3'
     volumes:
       - './:/installer'
     restart: 'no'

@@ -235,7 +235,6 @@ import AccountApiKeyModal from "./Account/ApiKeyModal";
 import AccountTwoFactorModal from "./Account/TwoFactorModal";
 import AccountEditModal from "./Account/EditModal";
 import Avatar from "~/components/Common/Avatar";
-import InfoCard from "~/components/Common/InfoCard";
 import EnabledBadge from "~/components/Common/Badges/EnabledBadge.vue";
 import {ref} from "vue";
 import {useTranslate} from "~/vendor/gettext";

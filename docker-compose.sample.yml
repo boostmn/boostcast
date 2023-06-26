@@ -13,7 +13,7 @@
 services:
   web:
     container_name: azuracast
-    image: "giva9712/boostcast:v1"
+    image: "giva9712/boostcast:v3"
     labels:
       - "com.centurylinklabs.watchtower.scope=azuracast"
     # Want to customize the HTTP/S ports? Follow the instructions here:
