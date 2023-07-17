@@ -1,5 +1,22 @@
 ![](https://github.com/AzuraCast/AzuraCast/raw/main/resources/azuracast.png)![](https://static.scarf.sh/a.png?x-pxid=d5169ead-cdcf-482c-ab64-c7137d3f8769)
 
+
+
+## The quick tour of BoostCast
+BoostCast is a clone of AzuraCast and it is a self-hosted, all-in-one web radio management suite. Using its easy installer and powerful but intuitive web interface, you can start up a fully working web radio station in a few quick minutes.
+
+BoostCast works for web radio stations of all types and sizes, and is built to run on even the most affordable VPS web hosts. 
+BoostCast is powered by Docker and uses pre-built images that contain every component of the software. Don't worry if you aren't very familiar with Docker; our easy installer tools will handle installing Docker and Docker Compose for you, and updates are very simple.
+
+## Let's start
+Installing BoostCast yourself requires a basic understanding of the Linux shell/terminal environment, as well as root (or "sudo") access to the computer you're installing BoostCast on.
+Docker installation now supports ARM64 devices as well, so you can follow these same installation steps.
+- [About AzuraCast](https://docs.azuracast.com/en/home#core-features)
+- [System Requirements](https://docs.azuracast.com/en/getting-started/requirements)
+- [Installation Guide](https://docs.azuracast.com/en/getting-started/installation/docker)
+- [Developing with BoostCast](https://docs.azuracast.com/en/developers/getting-started)
+
+
 # AzuraCast: A Simple, Self-Hosted Web Radio Management Suite
 
 [![Build Status](https://github.com/azuracast/azuracast/workflows/Build,%20Test%20and%20Publish/badge.svg)](https://github.com/AzuraCast/AzuraCast/actions)
@@ -31,20 +48,6 @@ Want to see AzuraCast for yourself? Visit our demo site at [demo.azuracast.com](
 
 * Username: `demo@azuracast.com`
 * Password: `demo`
-
-
-## The quick tour of BoostCast
-BoostCast is a clone of AzuraCast and it is a self-hosted, all-in-one web radio management suite. Using its easy installer and powerful but intuitive web interface, you can start up a fully working web radio station in a few quick minutes.
-
-BoostCast works for web radio stations of all types and sizes, and is built to run on even the most affordable VPS web hosts. 
-BoostCast is powered by Docker and uses pre-built images that contain every component of the software. Don't worry if you aren't very familiar with Docker; our easy installer tools will handle installing Docker and Docker Compose for you, and updates are very simple.
-
-## Let's start
-Installing BoostCast yourself requires a basic understanding of the Linux shell/terminal environment, as well as root (or "sudo") access to the computer you're installing BoostCast on.
-Docker installation now supports ARM64 devices as well, so you can follow these same installation steps.
-- [System Requirements](https://docs.azuracast.com/en/getting-started/requirements)
-- [Installation Guide](https://docs.azuracast.com/en/getting-started/installation/docker)
-- [Developing with BoostCast](https://docs.azuracast.com/en/developers/getting-started)
 
 
 ## Install AzuraCast
