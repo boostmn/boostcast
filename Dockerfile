@@ -15,12 +15,14 @@ RUN go install github.com/centrifugal/centrifugo/v4@v4.1.5
 #
 # MariaDB dependencies build step
 #
-FROM mariadb:10.9-jammy AS mariadb
+# FROM mariadb:10.9-jammy AS mariadb
+FROM mariadb:11.4.2-noble AS mariadb
 
 #
 # Final build image
 #
-FROM ubuntu:jammy AS pre-final
+# FROM ubuntu:jammy AS pre-final
+FROM ubuntu:noble AS pre-final
 
 ENV TZ="UTC"
 
@@ -63,7 +65,8 @@ VOLUME ["/var/azuracast/stations", "/var/azuracast/uploads", "/var/azuracast/bac
 #
 # Final build (Just environment vars and squishing the FS)
 #
-FROM ubuntu:jammy AS final
+# FROM ubuntu:jammy AS final
+FROM ubuntu:noble AS final
 
 COPY --from=pre-final / /
 
