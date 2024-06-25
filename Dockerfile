@@ -19,20 +19,25 @@ RUN go install github.com/centrifugal/centrifugo/v5@v5.4.0
 # MariaDB dependencies build step
 #
 # FROM mariadb:10.9-jammy AS mariadb
-# FROM mariadb:11.2-jammy AS mariadb
-FROM mariadb:11.4.2-noble AS mariadb
+FROM mariadb:11.2-jammy AS mariadb
+# FROM mariadb:11.4.2-noble AS mariadb
 
 #
 # Icecast-KH with AzuraCast customizations build step
 #
 FROM ghcr.io/azuracast/icecast-kh-ac:2024-02-13 AS icecast
 
+#
+# PHP Extension Installer build step
+#
+FROM mlocati/php-extension-installer AS php-extension-installer
 
 #
 # Final build image
 #
 # FROM ubuntu:jammy AS pre-final
-FROM ubuntu:noble AS pre-final
+# FROM ubuntu:noble AS pre-final
+FROM php:8.3-fpm-bookworm AS pre-final
 
 # ENV TZ="UTC"
 ENV TZ="UTC" \
@@ -40,6 +45,9 @@ ENV TZ="UTC" \
     LC_ALL="en_US.UTF-8" \
     LANG="en_US.UTF-8" \
     LC_TYPE="en_US.UTF-8"
+
+# Add PHP extension installer tool
+COPY --from=php-extension-installer /usr/bin/install-php-extensions /usr/local/bin/
 
 # Add Go dependencies
 COPY --from=go-dependencies /go/bin/dockerize /usr/local/bin
@@ -57,63 +65,100 @@ COPY --from=icecast /usr/local/share/icecast /usr/local/share/icecast
 # Run base build process
 COPY ./util/docker/common /bd_build/
 
+# RUN bash /bd_build/prepare.sh \
+#     && bash /bd_build/add_user.sh
 RUN bash /bd_build/prepare.sh \
-    && bash /bd_build/add_user.sh
+    && bash /bd_build/add_user.sh \
+    && bash /bd_build/cleanup.sh
 
 # Build each set of dependencies in their own step for cacheability.
+# COPY ./util/docker/supervisor /bd_build/supervisor/
+# RUN bash /bd_build/supervisor/setup.sh
 COPY ./util/docker/supervisor /bd_build/supervisor/
-RUN bash /bd_build/supervisor/setup.sh
+RUN bash /bd_build/supervisor/setup.sh \
+    && bash /bd_build/cleanup.sh \
+    && rm -rf /bd_build/supervisor
 
+# COPY ./util/docker/stations /bd_build/stations/
+# RUN bash /bd_build/stations/setup.sh
 COPY ./util/docker/stations /bd_build/stations/
-RUN bash /bd_build/stations/setup.sh
+RUN bash /bd_build/stations/setup.sh \
+    && bash /bd_build/cleanup.sh \
+    && rm -rf /bd_build/stations
 
+# COPY ./util/docker/web /bd_build/web/
+# RUN bash /bd_build/web/setup.sh
 COPY ./util/docker/web /bd_build/web/
-RUN bash /bd_build/web/setup.sh
+RUN bash /bd_build/web/setup.sh \
+    && bash /bd_build/cleanup.sh \
+    && rm -rf /bd_build/web
 
+# COPY ./util/docker/mariadb /bd_build/mariadb/
+# RUN bash /bd_build/mariadb/setup.sh
 COPY ./util/docker/mariadb /bd_build/mariadb/
-RUN bash /bd_build/mariadb/setup.sh
+RUN bash /bd_build/mariadb/setup.sh \
+    && bash /bd_build/cleanup.sh \
+    && rm -rf /bd_build/mariadb
 
+# COPY ./util/docker/redis /bd_build/redis/
+# RUN bash /bd_build/redis/setup.sh
 COPY ./util/docker/redis /bd_build/redis/
-RUN bash /bd_build/redis/setup.sh
+RUN bash /bd_build/redis/setup.sh \
+    && bash /bd_build/cleanup.sh \
+    && rm -rf /bd_build/redis
 
-RUN bash /bd_build/cleanup.sh \
+RUN bash /bd_build/chown_dirs.sh \
     && rm -rf /bd_build
 
-VOLUME ["/var/azuracast/stations", "/var/azuracast/uploads", "/var/azuracast/backups", "/var/azuracast/sftpgo/persist", "/var/azuracast/servers/shoutcast2", "/var/azuracast/meilisearch/persist"]
+# RUN bash /bd_build/cleanup.sh \
+#     && rm -rf /bd_build
+
+# VOLUME ["/var/azuracast/stations", "/var/azuracast/uploads", "/var/azuracast/backups", "/var/azuracast/sftpgo/persist", "/var/azuracast/servers/shoutcast2", "/var/azuracast/meilisearch/persist"]
 
 #
 # Final build (Just environment vars and squishing the FS)
 #
 # FROM ubuntu:jammy AS final
-FROM ubuntu:noble AS final
+# FROM ubuntu:noble AS final
 
-COPY --from=pre-final / /
+# COPY --from=pre-final / /
 
 USER azuracast
 
-WORKDIR /var/azuracast/www
+# WORKDIR /var/azuracast/www
 
-COPY --chown=azuracast:azuracast ./composer.json ./composer.lock ./
-RUN composer install \
-    --no-dev \
-    --no-ansi \
-    --no-autoloader \
-    --no-interaction
+# COPY --chown=azuracast:azuracast ./composer.json ./composer.lock ./
+# RUN composer install \
+#     --no-dev \
+#     --no-ansi \
+#     --no-autoloader \
+#     --no-interaction
+# RUN composer dump-autoload --optimize --classmap-authoritative
+RUN touch /var/azuracast/.docker
 
-COPY --chown=azuracast:azuracast . .
+# COPY --chown=azuracast:azuracast . .
 
-RUN composer dump-autoload --optimize --classmap-authoritative \
-    && touch /var/azuracast/.docker
+# RUN composer dump-autoload --optimize --classmap-authoritative \
+#     && touch /var/azuracast/.docker
 
 USER root
+
+VOLUME "/var/azuracast/stations"
+VOLUME "/var/azuracast/backups"
+VOLUME "/var/lib/mysql"
+VOLUME "/var/azuracast/storage/uploads"
+VOLUME "/var/azuracast/storage/shoutcast2"
+VOLUME "/var/azuracast/storage/stereo_tool"
+VOLUME "/var/azuracast/storage/geoip"
+VOLUME "/var/azuracast/storage/sftpgo"
+VOLUME "/var/azuracast/storage/acme"
 
 EXPOSE 80 443 2022
 EXPOSE 8000-8999
 
 # Sensible default environment variables.
-ENV TZ="UTC" \
-    LANG="en_US.UTF-8" \
-    PATH="${PATH}:/var/azuracast/servers/shoutcast2" \
+ENV LANG="en_US.UTF-8" \
+    PATH="${PATH}:/var/azuracast/storage/shoutcast2" \
     DOCKER_IS_STANDALONE="true" \
     APPLICATION_ENV="production" \
     MYSQL_HOST="localhost" \
@@ -137,6 +182,63 @@ ENV TZ="UTC" \
     ENABLE_WEB_UPDATER="true" \
     ENABLE_MEILISEARCH="true" \
     MEILISEARCH_MASTER_KEY="zejNISMlGe_6IUGBsdjfG6c6Qi8g2RngTxOmWsTbwvw"
+
+# Entrypoint and default command
+# ENTRYPOINT ["tini", "--", "/usr/local/bin/my_init"]
+# CMD ["--no-main-command"]
+
+#
+# Development Build
+#
+FROM pre-final AS development
+
+# Dev build step
+COPY ./util/docker/common /bd_build/
+COPY ./util/docker/dev /bd_build/dev
+
+RUN bash /bd_build/dev/setup.sh \
+    && bash /bd_build/cleanup.sh \
+    && rm -rf /bd_build
+
+USER azuracast
+
+WORKDIR /var/azuracast/www
+
+COPY --chown=azuracast:azuracast . .
+
+RUN composer install --no-ansi --no-interaction \
+    && composer clear-cache
+
+RUN npm ci --include=dev \
+    && npm cache clean --force
+
+USER root
+
+# Sensible default environment variables.
+ENV APPLICATION_ENV="development" \
+    PROFILING_EXTENSION_ENABLED=1 \
+    ENABLE_WEB_UPDATER="false"
+
+# Entrypoint and default command
+ENTRYPOINT ["tini", "--", "/usr/local/bin/my_init"]
+CMD ["--no-main-command"]
+
+#
+# Final build (Just environment vars and squishing the FS)
+#
+FROM pre-final AS final
+
+USER azuracast
+
+WORKDIR /var/azuracast/www
+
+COPY --chown=azuracast:azuracast . .
+
+RUN composer install --no-dev --no-ansi --no-autoloader --no-interaction \
+    && composer dump-autoload --optimize --classmap-authoritative \
+    && composer clear-cache
+
+USER root
 
 # Entrypoint and default command
 ENTRYPOINT ["tini", "--", "/usr/local/bin/my_init"]
