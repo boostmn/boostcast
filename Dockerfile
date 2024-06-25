@@ -19,7 +19,8 @@ RUN go install github.com/centrifugal/centrifugo/v5@v5.4.0
 # MariaDB dependencies build step
 #
 # FROM mariadb:10.9-jammy AS mariadb
-FROM mariadb:11.2-jammy AS mariadb
+# FROM mariadb:11.2-jammy AS mariadb
+FROM mariadb:11.4.2-noble AS mariadb
 
 #
 # Icecast-KH with AzuraCast customizations build step
@@ -31,7 +32,7 @@ FROM ghcr.io/azuracast/icecast-kh-ac:2024-02-13 AS icecast
 # Final build image
 #
 # FROM ubuntu:jammy AS pre-final
-# FROM ubuntu:noble AS pre-final
+FROM ubuntu:noble AS pre-final
 
 # ENV TZ="UTC"
 ENV TZ="UTC" \
@@ -84,7 +85,7 @@ VOLUME ["/var/azuracast/stations", "/var/azuracast/uploads", "/var/azuracast/bac
 # Final build (Just environment vars and squishing the FS)
 #
 # FROM ubuntu:jammy AS final
-# FROM ubuntu:noble AS final
+FROM ubuntu:noble AS final
 
 COPY --from=pre-final / /
 
