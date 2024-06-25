@@ -1,30 +1,44 @@
 #
 # Golang dependencies build step
 #
-FROM golang:1.19-bullseye AS go-dependencies
+# FROM golang:1.19-bullseye AS go-dependencies
+FROM golang:1.122-bookworm AS go-dependencies
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends openssl git
 
 RUN go install github.com/jwilder/dockerize@v0.6.1
 
-RUN go install github.com/aptible/supercronic@v0.2.25
+# RUN go install github.com/aptible/supercronic@v0.2.25
+RUN go install github.com/aptible/supercronic@v0.2.28
 
-RUN go install github.com/centrifugal/centrifugo/v4@v4.1.5
+# RUN go install github.com/centrifugal/centrifugo/v4@v4.1.5
+RUN go install github.com/centrifugal/centrifugo/v5@v5.4.0
 
 #
 # MariaDB dependencies build step
 #
 # FROM mariadb:10.9-jammy AS mariadb
-FROM mariadb:11.4.2-noble AS mariadb
+FROM mariadb:11.2-jammy AS mariadb
+
+#
+# Icecast-KH with AzuraCast customizations build step
+#
+FROM ghcr.io/azuracast/icecast-kh-ac:2024-02-13 AS icecast
+
 
 #
 # Final build image
 #
 # FROM ubuntu:jammy AS pre-final
-FROM ubuntu:noble AS pre-final
+# FROM ubuntu:noble AS pre-final
 
-ENV TZ="UTC"
+# ENV TZ="UTC"
+ENV TZ="UTC" \
+    LANGUAGE="en_US.UTF-8" \
+    LC_ALL="en_US.UTF-8" \
+    LANG="en_US.UTF-8" \
+    LC_TYPE="en_US.UTF-8"
 
 # Add Go dependencies
 COPY --from=go-dependencies /go/bin/dockerize /usr/local/bin
@@ -34,6 +48,10 @@ COPY --from=go-dependencies /go/bin/centrifugo /usr/local/bin/centrifugo
 # Add MariaDB dependencies
 COPY --from=mariadb /usr/local/bin/healthcheck.sh /usr/local/bin/db_healthcheck.sh
 COPY --from=mariadb /usr/local/bin/docker-entrypoint.sh /usr/local/bin/db_entrypoint.sh
+
+# Add Icecast
+COPY --from=icecast /usr/local/bin/icecast /usr/local/bin/icecast
+COPY --from=icecast /usr/local/share/icecast /usr/local/share/icecast
 
 # Run base build process
 COPY ./util/docker/common /bd_build/
