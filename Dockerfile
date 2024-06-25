@@ -84,7 +84,7 @@ VOLUME ["/var/azuracast/stations", "/var/azuracast/uploads", "/var/azuracast/bac
 # Final build (Just environment vars and squishing the FS)
 #
 # FROM ubuntu:jammy AS final
-FROM ubuntu:noble AS final
+# FROM ubuntu:noble AS final
 
 COPY --from=pre-final / /
 
@@ -106,7 +106,7 @@ RUN composer dump-autoload --optimize --classmap-authoritative \
 
 USER root
 
-EXPOSE 80 2022
+EXPOSE 80 443 2022
 EXPOSE 8000-8999
 
 # Sensible default environment variables.
