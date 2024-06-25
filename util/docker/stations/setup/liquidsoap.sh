@@ -13,7 +13,7 @@ set -x
 apt-get install -y --no-install-recommends \
     libao4 libfaad2 libfdk-aac2 libgd3 liblo7 libmad0 libmagic1 libportaudio2 \
     libsdl2-image-2.0-0 libsdl2-ttf-2.0-0 libsoundtouch1 libxpm4 \
-    libasound2t64 libasound2-plugins libavcodec60 libavdevice-dev libavfilter9 libavformat60 libavutil58 \
+    libasound2t64 libasound2-plugins libavcodec60 libavdevice-dev libavfilter9 libavformat60 libavutil57 \
     libpulse0 libsamplerate0 libswresample4 libswscale-dev libtag1v5 \
     libsrt1.5-openssl bubblewrap ffmpeg liblilv-0-0 libjemalloc2 libpcre3
 
