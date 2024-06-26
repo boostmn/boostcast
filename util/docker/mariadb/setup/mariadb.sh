@@ -4,8 +4,11 @@ set -x
 
 apt-get install -q -y --no-install-recommends apt-transport-https curl
 
-curl -o /etc/apt/trusted.gpg.d/mariadb_release_signing_key.asc 'https://mariadb.org/mariadb_release_signing_key.asc'
-echo 'deb https://atl.mirrors.knownhost.com/mariadb/repo/10.9/ubuntu jammy main' >> /etc/apt/sources.list
+# curl -o /etc/apt/trusted.gpg.d/mariadb_release_signing_key.asc 'https://mariadb.org/mariadb_release_signing_key.asc'
+# echo 'deb https://atl.mirrors.knownhost.com/mariadb/repo/10.9/ubuntu jammy main' >> /etc/apt/sources.list
+
+curl -LsS https://r.mariadb.com/downloads/mariadb_repo_setup | bash -s -- \
+  --mariadb-server-version=11.2
 
 apt-get update
 
@@ -14,8 +17,12 @@ apt-get update
 		echo "mariadb-server" mysql-server/root_password_again password 'unused'; \
 } | debconf-set-selections
 
+# apt-get install -q -y --no-install-recommends \
+#   mariadb-server.10.9 mariadb-backup \
+#   ca-certificates gpg gpgv libjemalloc2 pwgen tzdata xz-utils zstd
+
 apt-get install -q -y --no-install-recommends \
-  mariadb-server.10.9 mariadb-backup \
+  mariadb-server mariadb-backup mariadb-client \
   ca-certificates gpg gpgv libjemalloc2 pwgen tzdata xz-utils zstd
 
 rm -rf /var/lib/mysql
