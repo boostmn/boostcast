@@ -10,12 +10,12 @@ apt-get install -q -y --no-install-recommends apt-transport-https curl
 curl -LsS https://r.mariadb.com/downloads/mariadb_repo_setup | bash -s -- \
   --mariadb-server-version=11.2
 
-apt-get update
-
 { \
 		echo "mariadb-server" mysql-server/root_password password 'unused'; \
 		echo "mariadb-server" mysql-server/root_password_again password 'unused'; \
 } | debconf-set-selections
+
+apt-get update
 
 # apt-get install -q -y --no-install-recommends \
 #   mariadb-server.10.9 mariadb-backup \
