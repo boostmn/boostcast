@@ -12,6 +12,17 @@ RUN go install github.com/aptible/supercronic@v0.2.30
 
 RUN go install github.com/centrifugal/centrifugo/v5@v5.4.1
 
+# FROM golang:1.22-bookworm AS go-dependencies
+
+# RUN apt-get update \
+#     && apt-get install -y --no-install-recommends openssl git
+
+# RUN go install github.com/jwilder/dockerize@v0.6.1
+
+# RUN go install github.com/aptible/supercronic@v0.2.30
+
+# RUN go install github.com/centrifugal/centrifugo/v5@v5.4.1
+
 #
 # MariaDB dependencies build step
 #
@@ -98,7 +109,7 @@ ENV TZ="UTC" \
     MYSQL_HOST="localhost" \
     MYSQL_PORT=3306 \
     MYSQL_USER="azuracast" \
-    MYSQL_PASSWORD="azur4c457" \
+    MYSQL_PASSWORD="IUGBsdjfG6c6Qi8" \
     MYSQL_DATABASE="azuracast" \
     ENABLE_REDIS="true" \
     REDIS_HOST="localhost" \

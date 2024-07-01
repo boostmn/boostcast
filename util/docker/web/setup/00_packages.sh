@@ -8,6 +8,13 @@ add-apt-repository -y ppa:chris-needham/ppa
 add-apt-repository -y ppa:ondrej/php
 apt-get update
 
+# apt-get install -y --no-install-recommends \
+#   audiowaveform=1.8.0-1jammy1 \
+#   nginx nginx-common openssl \
+#   tmpreaper \
+#   zstd \
+#   netbase
+
 apt-get install -y --no-install-recommends \
   audiowaveform \
   nginx nginx-common openssl \

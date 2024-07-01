@@ -9,6 +9,8 @@ export INITRD=no
 
 export DEBIAN_FRONTEND=noninteractive
 
+# sed -i 's/^Components: main$/& contrib non-free non-free-firmware/' /etc/apt/sources.list.d/debian.sources
+
 ## Enable Ubuntu Universe, Multiverse, and deb-src for main.
 sed -i 's/^#\s*\(deb.*main restricted\)$/\1/g' /etc/apt/sources.list
 sed -i 's/^#\s*\(deb.*universe\)$/\1/g' /etc/apt/sources.list
@@ -60,8 +62,11 @@ update-locale LANG=en_US.UTF-8 LC_CTYPE=en_US.UTF-8
 mkdir -p /etc/my_init.d
 
 # Install other common scripts.
+# apt-get install -y --no-install-recommends \
+#     tini gosu curl wget tar zip unzip git rsync tzdata gpg-agent openssh-client
+
 apt-get install -y --no-install-recommends \
-    tini gosu curl wget tar zip unzip git rsync tzdata gpg-agent openssh-client
+    lsb-release tini gosu curl wget tar zip unzip xz-utils git rsync tzdata gnupg gpg-agent openssh-client
 
 # Add scripts
 cp -rT /bd_build/scripts/ /usr/local/bin
