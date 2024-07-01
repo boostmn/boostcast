@@ -1,16 +1,16 @@
 #
 # Golang dependencies build step
 #
-FROM golang:1.19-bullseye AS go-dependencies
+FROM golang:1.22-bookworm AS go-dependencies
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends openssl git
 
 RUN go install github.com/jwilder/dockerize@v0.6.1
 
-RUN go install github.com/aptible/supercronic@v0.2.25
+RUN go install github.com/aptible/supercronic@v0.2.30
 
-RUN go install github.com/centrifugal/centrifugo/v4@v4.1.5
+RUN go install github.com/centrifugal/centrifugo/v5@v5.4.1
 
 # FROM golang:1.22-bookworm AS go-dependencies
 
@@ -70,7 +70,7 @@ RUN bash /bd_build/redis/setup.sh
 RUN bash /bd_build/cleanup.sh \
     && rm -rf /bd_build
 
-VOLUME ["/var/azuracast/stations", "/var/azuracast/uploads", "/var/azuracast/backups", "/var/azuracast/sftpgo/persist", "/var/azuracast/servers/shoutcast2", "/var/azuracast/meilisearch/persist"]
+VOLUME ["/var/azuracast/stations", "/var/lib/mysql", "/var/azuracast/uploads", "/var/azuracast/backups", "/var/azuracast/sftpgo/persist", "/var/azuracast/servers/shoutcast2", "/var/azuracast/meilisearch/persist"]
 
 #
 # Final build (Just environment vars and squishing the FS)
