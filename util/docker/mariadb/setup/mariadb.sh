@@ -5,7 +5,8 @@ set -x
 apt-get install -q -y --no-install-recommends apt-transport-https curl
 
 curl -o /etc/apt/trusted.gpg.d/mariadb_release_signing_key.asc 'https://mariadb.org/mariadb_release_signing_key.asc'
-echo 'deb https://atl.mirrors.knownhost.com/mariadb/repo/10.9/ubuntu jammy main' >> /etc/apt/sources.list
+# echo 'deb https://atl.mirrors.knownhost.com/mariadb/repo/10.9/ubuntu jammy main' >> /etc/apt/sources.list
+echo 'deb https://atl.mirrors.knownhost.com/mariadb/repo/10.11.8/ubuntu jammy main' >> /etc/apt/sources.list
 
 apt-get update
 
@@ -15,7 +16,8 @@ apt-get update
 } | debconf-set-selections
 
 apt-get install -q -y --no-install-recommends \
-  mariadb-server.10.9 mariadb-backup \
+  # mariadb-server.10.9 mariadb-backup \
+  mariadb-server.10.11.8 mariadb-backup \
   ca-certificates gpg gpgv libjemalloc2 pwgen tzdata xz-utils zstd
 
 rm -rf /var/lib/mysql
