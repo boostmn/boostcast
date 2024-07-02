@@ -100,8 +100,7 @@ final class UptimeWait
             ];
 
             $dsn = ('localhost' === $dbOptions['host'])
-                    // ? 'mysql:unix_socket=/run/mysqld/mysqld.sock;dbname=' . $dbOptions['dbname']
-                    ? 'mysql:unix_socket=/run/mysqld/mariadbd.sock;dbname=' . $dbOptions['dbname']
+                    ? 'mysql:unix_socket=/run/mysqld/mysqld.sock;dbname=' . $dbOptions['dbname']
                     : 'mysql:host=' . $dbOptions['host'] . ';port=' . $dbOptions['port']
                     . ';dbname=' . $dbOptions['dbname'];
 
